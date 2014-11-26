@@ -1,0 +1,39 @@
+#!/system/bin/sh
+
+LOG_FILE=/data/local/S5_Memory_Recovery.log
+#Interval between S5 Memory Recovery runs, in seconds, 604800=1 week
+RUN_EVERY=86400
+
+# Get the last modify date of the Log file, if the file does not exist, set value to 0
+if [ -e $LOG_FILE ]; then
+	LASTRUN=`busybox stat -t $LOG_FILE | busybox awk '{print $14}'`
+else
+	LASTRUN=0
+fi;
+
+# Get current date in epoch format
+CURRDATE=`date +%s`
+
+# Check the interval
+INTERVAL=$(busybox expr $CURRDATE - $LASTRUN)
+
+# If interval is more than the set one, then run the main script
+if [ $INTERVAL -gt $RUN_EVERY ];
+then
+	if [ -e $LOG_FILE ]; then
+		rm $LOG_FILE;
+	fi;
+	sync;
+	echo "3" > /proc/sys/vm/drop_caches;
+	dc=/proc/sys/vm/drop_caches
+	dc_v=`cat $dc`
+	if [ "$dc_v" -gt 1 ]; then
+		echo "1" > /proc/sys/vm/drop_caches;
+	else
+		exit 1
+	fi
+	echo "S5 Memory Recovery finished at $( date +"%m-%d-%Y %H:%M:%S" )" | busybox tee -a $LOG_FILE;
+else	
+	exit 0
+fi
+exit 0	

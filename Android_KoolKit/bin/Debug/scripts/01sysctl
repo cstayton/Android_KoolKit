@@ -1,0 +1,7 @@
+#!/system/bin/sh
+
+sysctl -p;
+
+echo "sysctl.conf applied successfully" $(date) >> /data/local/init.log
+
+exit 0

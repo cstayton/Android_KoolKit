@@ -1,0 +1,105 @@
+#============================================#
+#Bloatware Removal DB for s5mods Tab3 tweaks #
+#path is case sensitive and must be included #
+#filenames are Case Sensitive                #
+#include odex file if it exists              #
+#============================================#
+#Scripts and related txt components created by cstayton@xda 2014
+#Please do not copy or re-link without my permission
+#Default System apks removed by script
+#Add your additional apks in this section
+#
+/system/app/FamilyMap_vpl_ATT.apk
+/system/app/WISPr_Android22_postpaid_ATT.apk
+/system/app/PasswordKeeper_ATT.apk
+/system/app/attMessages_vpl_ATT.apk
+/system/app/BeatsMusic_vpl_ATT.apk
+/system/app/myATT_ATT.apk
+/system/app/DeviceHelp.apk
+/system/app/DeviceHelp.odex
+/system/app/Drive.apk
+/system/app/SamsungAppsWidget_Phone_Carrier.apk
+/system/app/MobilePrintSvc_HP.apk
+/system/app/MobilePrintSvc_CUPS.apk
+/system/app/MobilePrintSvc_CUPS_Backend.apk
+/system/app/SPrintSpooler2.apk
+/system/app/SPrintSpooler2.odex
+/system/app/MobilePrintSvc_Epson.apk
+/system/app/MobilePrintSvc_Samsung.apk
+/system/app/MobilePrintSvc_WFDS.apk
+/system/app/Hangouts.apk
+/system/app/Headlines.apk
+/system/app/Headlines.odex
+/system/app/TravelService_K.apk
+/system/app/TravelService_K.odex
+/system/app/SecMemoDL.apk
+/system/app/SapaMonitor.apk
+/system/app/SmartRemote_K.apk
+/system/app/talkback.apk
+/system/app/SNameCard.apk
+/system/app/ANTRadioService.apk
+/system/app/ANTPlusPlugins.apk
+/system/app/AntHalService.apk
+/system/app/AntHalService.odex
+/system/app/SecKidsModeInstaller.apk
+/system/app/SecKidsModeInstaller.odex
+/system/app/Blurb.apk
+/system/app/ChatON_MARKET.apk
+/system/priv-app/HealthService.apk
+/system/priv-app/HealthService.odex
+/system/priv-app/SamsungBilling.apk
+/system/priv-app/Tag.apk
+/system/priv-app/Tag.odex
+/system/priv-app/NokNok_Stub.apk
+/system/priv-app/com.mobitv.client.tv.apk
+/system/priv-app/SamsungLinkPlatform.apk
+/system/priv-app/SPPPushClient_Prod.apk
+/system/priv-app/SHealth3.apk
+/system/priv-app/S-Voice_Android_phone.apk
+/system/priv-app/Samsungservice2_K.apk
+/system/priv-app/SamsungApps_K.apk
+/system/priv-app/GroupPlay_27.apk
+/system/priv-app/DirectShareManager.apk
+/system/priv-app/DirectShareManager.odex
+/system/priv-app/SNS.apk
+/system/priv-app/Lookout_ATT.apk
+/system/priv-app/SecMyFiles2014.apk
+/system/priv-app/SecMyFiles2014.odex
+/system/priv-app/DriveMode_ATT.apk
+/system/priv-app/ISISWallet_ATT.apk
+/system/priv-app/ECID-release_ATT.apk
+/system/priv-app/digitalLocker_ATT.apk
+/system/priv-app/MobileLocate_ATT.apk
+/system/priv-app/Telenav_ATT.apk
+#
+#==============================================#
+#Samsung Knox notification removal             #
+#Uncomment lines below if you wish to remove   #
+#Do not add components or apks to this section #
+#Not all files and folders exist in            #
+#every ROM but this will check for all         #
+#instances and coresponding data               #
+#==============================================#
+#Samsung Knox notifications
+#
+#Samsung Knox notifications
+/system/app/KNOXAgent.apk
+/system/app/KNOXAgent.odex
+/system/app/KnoxAttestationAgent.apk
+/system/app/KnoxAttestationAgent.odex
+/system/app/KnoxSetupWizardClient.apk
+/system/app/KnoxSetupWizardClient.odex
+/system/priv-app/KLMSAgent.apk
+/system/priv-app/KLMSAgent.odex
+#
+/system/container
+/data/data/com.sec.knox.seandroid
+/data/data/com.sec.knox.store
+/data/data/com.sec.knox.containeragent
+/data/data/com.sec.enterprise.knox.attestation
+/data/data/com.sec.knox.app.container
+/data/data/com.sec.knox.eventsmanager
+/data/data/com.samsung.klmsagent
+/data/data/com.samsung.android.walletmanager
+/data/clipboard/knox
+/system/etc/secure_storage/com.sec.knox.store
