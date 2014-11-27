@@ -1,7 +1,22 @@
 #!/system/bin/sh
 
+PATH=$PATH:/system/xbin:/sbin:/vendor/bin:/system/sbin:/system/bin
+if [ -d "/data/local/busybox*/xbin" ]; then 
+	PATH=$PATH:`ls -d /data/local/busybox*/xbin 2>/dev/null`; 
+fi
+
+LOG=/data/local/01sysctl.log;
+
+if [ -e $LOG ]; then
+	rm $LOG;
+fi;
+
+touch $LOG;
+echo "# LOGGING ENGINE" > $LOG;
+
 sysctl -p;
 
-echo "sysctl.conf applied successfully" $(date) >> /data/local/init.log
+echo "" >> $LOG;
+echo "$( date +"%m-%d-%Y %H:%M:%S" ) sysctl configuration applied..." >> $LOG;
 
 exit 0
