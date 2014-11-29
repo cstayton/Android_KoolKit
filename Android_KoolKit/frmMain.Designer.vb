@@ -41,6 +41,7 @@ Partial Class frmMain
         Me.FileMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.editBloatToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.editBuildPropToolstripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.editSysctlToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.filemnuSeperator = New System.Windows.Forms.ToolStripSeparator()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.apkMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -49,7 +50,6 @@ Partial Class frmMain
         Me.toolsMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InstallBusyboxToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.lblPowerOn = New System.Windows.Forms.Label()
-        Me.editSysctlToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuDefault.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -260,6 +260,12 @@ Partial Class frmMain
         Me.editBuildPropToolstripMenuItem.Size = New System.Drawing.Size(204, 22)
         Me.editBuildPropToolstripMenuItem.Text = "Edit Buil.&Prop Settings"
         '
+        'editSysctlToolStripMenuItem
+        '
+        Me.editSysctlToolStripMenuItem.Name = "editSysctlToolStripMenuItem"
+        Me.editSysctlToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
+        Me.editSysctlToolStripMenuItem.Text = "Edit &Sysctl Configuration"
+        '
         'filemnuSeperator
         '
         Me.filemnuSeperator.Name = "filemnuSeperator"
@@ -313,19 +319,13 @@ Partial Class frmMain
         Me.lblPowerOn.TabIndex = 15
         Me.lblPowerOn.Text = "(Disables PowerOn Audio)"
         '
-        'editSysctlToolStripMenuItem
-        '
-        Me.editSysctlToolStripMenuItem.Name = "editSysctlToolStripMenuItem"
-        Me.editSysctlToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
-        Me.editSysctlToolStripMenuItem.Text = "Edit &Sysctl Configuration"
-        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Android_KoolKit.My.Resources.Resources.tablet_wsvga_011
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(784, 562)
+        Me.ClientSize = New System.Drawing.Size(784, 561)
         Me.Controls.Add(Me.lblPowerOn)
         Me.Controls.Add(Me.lblModel)
         Me.Controls.Add(Me.lblPerformance)

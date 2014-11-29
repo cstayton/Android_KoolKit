@@ -10,3 +10,15 @@ C:\Users\cast1\Documents\Visual Studio 2012\Projects\Android_KoolKit\Android_Koo
 C:\Users\cast1\Documents\Visual Studio 2012\Projects\Android_KoolKit\Android_KoolKit\obj\Debug\Android_KoolKit.exe
 C:\Users\cast1\Documents\Visual Studio 2012\Projects\Android_KoolKit\Android_KoolKit\obj\Debug\Android_KoolKit.xml
 C:\Users\cast1\Documents\Visual Studio 2012\Projects\Android_KoolKit\Android_KoolKit\obj\Debug\Android_KoolKit.pdb
+C:\github\Android_KoolKit\Android_KoolKit\bin\Debug\Android_KoolKit.exe.config
+C:\github\Android_KoolKit\Android_KoolKit\obj\Debug\Android_KoolKit.exe
+C:\github\Android_KoolKit\Android_KoolKit\obj\Debug\Android_KoolKit.xml
+C:\github\Android_KoolKit\Android_KoolKit\obj\Debug\Android_KoolKit.pdb
+C:\github\Android_KoolKit\Android_KoolKit\bin\Debug\Android_KoolKit.exe
+C:\github\Android_KoolKit\Android_KoolKit\bin\Debug\Android_KoolKit.pdb
+C:\github\Android_KoolKit\Android_KoolKit\bin\Debug\Android_KoolKit.xml
+C:\github\Android_KoolKit\Android_KoolKit\obj\Debug\Android_KoolKit.frmMain.resources
+C:\github\Android_KoolKit\Android_KoolKit\obj\Debug\Android_KoolKit.frmReadme.resources
+C:\github\Android_KoolKit\Android_KoolKit\obj\Debug\Android_KoolKit.Resources.resources
+C:\github\Android_KoolKit\Android_KoolKit\obj\Debug\Android_KoolKit.RebootOptions.resources
+C:\github\Android_KoolKit\Android_KoolKit\obj\Debug\Android_KoolKit.vbproj.GenerateResource.Cache
