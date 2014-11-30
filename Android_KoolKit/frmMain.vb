@@ -131,6 +131,8 @@ Public Class frmMain
             ProcStart(adb, shell & " rm -f /sdcard/bootanimation")
             ProcStart(adb, shell & " rm -f /sdcard/bootanimation.zip")
             ProcStart(adb, shell & " rm -f /sdcard/sysctl.conf")
+            ProcStart(adb, shell & " rm -f /sdcard/init.qcom.post_boot.sh")
+            ProcStart(adb, shell & " rm -f /sdcard/customer.xml")
             ProcStart(adb, shell & " rm -r /sdcard/xbin")
             ProcStart(adb, shell & " rm -r /sdcard/sysinit")
             ProcStart(adb, shell & " rm -r /sdcard/init.d")
@@ -147,7 +149,7 @@ Public Class frmMain
         Try
             ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
             ProcStart(adb, "pull" & " /system/build.prop")
-            ProcStart(adb, "pull" & " /system/etc/install-recovery-2.sh")
+            ProcStart(adb, "pull" & " /system/etc/init.qcom.post_boot.sh")
 
             Dim sc As New StreamReader("build.prop")
 
@@ -161,7 +163,7 @@ Public Class frmMain
                 End If
             End While
             sc.Close()
-            Dim si As New StreamReader("install-recovery-2.sh")
+            Dim si As New StreamReader("init.qcom.post_boot.sh")
             While si.Peek() <> -1
                 Dim siLine As String = si.ReadLine()
                 If siLine.Contains("/system/bin/sysinit") Then
@@ -200,14 +202,18 @@ Public Class frmMain
         ProcStart(adb, "push" & " scripts /sdcard/init.d")
         ProcStart(adb, "push" & " sysctl\sysctl.conf /sdcard/sysctl.conf")
         ProcStart(adb, "push" & " tweaks\customer.xml /sdcard/customer.xml")
+        ProcStart(adb, "push" & " etc\init.qcom.post_boot.sh /sdcard/init.qcom.post_boot.sh")
         ProcStart(adb, shell & " cp -R /sdcard/xbin /system")
         ProcStart(adb, shell & " cp -f /sdcard/sysctl.conf /system/etc/sysctl.conf")
         ProcStart(adb, shell & " cp -f /sdcard/customer.xml /system/csc/customer.xml")
         ProcStart(adb, shell & " cp -R /sdcard/init.d /system/etc")
+        ProcStart(adb, shell & " cp -R /sdcard/init.qcom.post_boot.sh /system/etc/init.qcom.post_boot.sh")
         ProcStart(adb, shell & " chmod 0644 /system/etc/sysctl.conf")
         ProcStart(adb, shell & " chmod 0644 /system/csc/customer.xml")
+        ProcStart(adb, shell & " chmod 0755 /system/etc/init.qcom.post_boot.sh")
         ProcStart(adb, shell & " chmod 0755 /system/xbin/sqlite3")
         ProcStart(adb, shell & " chmod 0755 /system/xbin/tune2fs")
+        ProcStart(adb, shell & " chmod 0755 /system/xbin/fstrim")
         ProcStart(adb, shell & " chmod -R 0755 /system/etc/init.d")
         ProcStart(adb, shell & " cp -f /system/build.prop /system/build.prop.backup")
         ProcStart(adb, shell & " " & Chr(34) & " sed -i 's/ro.build.product.*=.*/# ro.build.product=/g' /system/build.prop" & Chr(34))
@@ -215,7 +221,7 @@ Public Class frmMain
         ProcStart(adb, shell & " " & Chr(34) & " sed -i 's/ro.kernel.checkjni.*=.*/# ro.kernel.checkjni/g' /system/build.prop" & Chr(34))
         ProcStart(adb, shell & " " & Chr(34) & " sed -i 's/dalvik.vm.heapsize=36m/# dalvik.vm.heapsize=36m/g' /system/build.prop" & Chr(34))
 
-        Dim st As New StreamReader("tweaks\build.prop")
+        Dim st As New StreamReader("tweaks\build_prop.txt")
         While st.Peek() <> -1
             Dim stLine As String = st.ReadLine()
             ProcStart(adb, shell & " " & Chr(34) & " echo " _

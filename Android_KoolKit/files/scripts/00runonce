@@ -1,0 +1,31 @@
+#!/system/bin/sh
+
+export PATH=$PATH:/system/xbin:/sbin:/vendor/bin:/system/sbin:/system/bin
+if [ -d "/data/local/busybox*/xbin" ]; then
+	export PATH=$PATH:`ls -d /data/local/busybox*/xbin 2>/dev/null`;
+fi
+
+LOG=/data/local/00runonce.log;
+
+if [ -e $LOG ]; then
+	rm $LOG;
+fi;
+
+touch $LOG;
+echo "# LOGGING ENGINE" > $LOG;
+echo "" >> $LOG;
+
+### Disable CIQ
+setprop service.iq.active 0
+pm disable android/com.carrieriq.iqagent.service.IQService
+pm disable android/com.carrieriq.iqagent.service.receivers.BootCompletedReceiver
+pm disable android/com.carrieriq.iqagent.service.ui.DebugSettings
+pm disable android/com.carrieriq.iqagent.service.ui.ShowMessage
+pm disable android/com.carrieriq.iqagent.client.NativeClient
+pm disable android/com.carrieriq.iqagent.stdmetrics.survey.android.QuestionnaireLaunchActivity
+pm disable android/com.carrieriq.iqagent.stdmetrics.survey.android.QuestionnaireActivity
+
+echo "" >> $LOG;
+echo "$( date +"%m-%d-%Y %H:%M:%S" ) RunOnce configuration applied..." >> $LOG;
+
+rm /system/etc/init.d/00runonce;

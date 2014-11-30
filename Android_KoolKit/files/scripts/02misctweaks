@@ -1,76 +1,42 @@
 #!/system/bin/sh
 
+export PATH=$PATH:/system/xbin:/sbin:/vendor/bin:/system/sbin:/system/bin
+if [ -d "/data/local/busybox*/xbin" ]; then
+	export PATH=$PATH:`ls -d /data/local/busybox*/xbin 2>/dev/null`;
+fi
+
+LOG=/data/local/02misctweaks.log;
+
+if [ -e $LOG ]; then
+	rm $LOG;
+fi;
+
+touch $LOG;
+echo "# LOGGING ENGINE" > $LOG;
 ##Re-Mount /system, /data and /cache for better performance
 sync
 
-busybox mount -o remount,noatime,noauto_da_alloc,nodiratime,barrier=0,nobh /system
-busybox mount -o remount,noatime,noauto_da_alloc,nosuid,nodev,nodiratime,barrier=0,nobh /data
-busybox mount -o remount,noatime,noauto_da_alloc,nosuid,nodev,nodiratime,barrier=0,nobh /cache
+# --------------------------------------- #
+# | Remount with noatime and nodiratime | #
+# --------------------------------------- #
+for k in $(busybox mount | cut -d " " -f3); do
+	busybox sync;
+	busybox mount -o remount,noatime,noauto_da_alloc,barrier=0,data=writeback,nobh $k 2>/dev/null;
+done;
 
-# Move cache to cache partition if its large enough otherwise leave on data partition
-CACHESIZE=$(df -k /cache | tail -n1 | tr -s ' ' | cut -d ' ' -f2)
-if [ $CACHESIZE -gt 80000 ]
-	then
-	echo "Large cache detected, moving dalvik-cache to /cache"
-	if [ ! -d /cache/dalvik-cache ]
-		then
-		busybox rm -rf /cache/dalvik-cache /data/dalvik-cache
-		mkdir /cache/dalvik-cache /data/dalvik-cache
-		fi
-
-	busybox chown 1000:1000 /cache/dalvik-cache
-	busybox chmod 0771 /cache/dalvik-cache
-
-	# bind mount dalvik-cache so we can still boot without the sdcard
-	busybox mount -o bind /cache/dalvik-cache /data/dalvik-cache
-	busybox chown 1000:1000 /data/dalvik-cache
-	busybox chmod 0771 /data/dalvik-cache
-	else
-	echo "Small cache detected, dalvik-cache will remain on /data"
-fi
-
-# Minfree Values
-if [ -e /sys/module/lowmemorykiller/parameters/minfree ]; then
-chmod 0644 /sys/module/lowmemorykiller/parameters/minfree
-echo "1536,2048,4096,8192,16384,24576" > /sys/module/lowmemorykiller/parameters/minfree ;
-fi
-
-#   Cost Values
-
-echo "64" > /sys/module/lowmemorykiller/parameters/cost;
-
-#   Debug Level
-
-echo "0" > /sys/module/lowmemorykiller/parameters/debug_level;
-
-#Read Ahead buffers
-chmod 0644 /sys/block/mmcblk0/queue/read_ahead_kb
-chmod 0644 /sys/block/mmcblk1/queue/read_ahead_kb
-chmod 0644 /sys/devices/virtual/bdi/179:0/read_ahead_kb
-
-LOOP=`ls -d /sys/block/loop*`;
-RAM=`ls -d /sys/block/ram*`;
-MMC=`ls -d /sys/block/mmc*`;
-for j in $LOOP $RAM $MMC
-	do
-	echo "0" > $j/queue/rotational;
-	echo "2048" > $j/queue/read_ahead_kb;
-done
-
-for i in \
+ for i in \
 	`busybox find /data -iname "*.db"`; 
-do \
+ do \
 	sqlite3 $i 'VACUUM;'; 
 	sqlite3 $i 'REINDEX;'; 
-done
+ done
 	
-echo "2048" > /sys/devices/virtual/bdi/179:0/read_ahead_kb;
-
 #Clear logs
 rm -f /data/log/*
 
 sync;
 
-echo "system tweaks applied successfully" $(date) >> /data/local/init.log
+echo "" >> $LOG;
+echo "$( date +"%m-%d-%Y %H:%M:%S" ) miscellaneous tweaks applied..." >> $LOG;
 
 exit 0

@@ -5,18 +5,17 @@ if [ -d "/data/local/busybox*/xbin" ]; then
 	export PATH=$PATH:`ls -d /data/local/busybox*/xbin 2>/dev/null`;
 fi
 
-LOG=/data/local/01sysctl.log;
-
+LOG=/data/local/99SuperSUDaemon.log;
 if [ -e $LOG ]; then
 	rm $LOG;
 fi;
 
 touch $LOG;
 echo "# LOGGING ENGINE" > $LOG;
+##Re-Mount /system, /data and /cache for better performance
+sync
 
-sysctl -p;
+/system/xbin/daemonsu --auto-daemon &
 
 echo "" >> $LOG;
-echo "$( date +"%m-%d-%Y %H:%M:%S" ) sysctl configuration applied..." >> $LOG;
-
-exit 0
+echo "$( date +"%m-%d-%Y %H:%M:%S" ) SuperSUDaemon process completed..." >> $LOG;

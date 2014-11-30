@@ -1,12 +1,25 @@
 #!/system/bin/sh
 
-LOG_FILE=/data/local/S5_Memory_Recovery.log
+export PATH=$PATH:/system/xbin:/sbin:/vendor/bin:/system/sbin:/system/bin
+if [ -d "/data/local/busybox*/xbin" ]; then
+	export PATH=$PATH:`ls -d /data/local/busybox*/xbin 2>/dev/null`;
+fi
+
+LOG=/data/local/03memory.log;
+
+if [ -e $LOG ]; then
+	rm $LOG;
+fi;
+
+touch $LOG;
+echo "# LOGGING ENGINE" > $LOG;
+
 #Interval between S5 Memory Recovery runs, in seconds, 604800=1 week
 RUN_EVERY=86400
 
 # Get the last modify date of the Log file, if the file does not exist, set value to 0
-if [ -e $LOG_FILE ]; then
-	LASTRUN=`busybox stat -t $LOG_FILE | busybox awk '{print $14}'`
+if [ -e $LOG ]; then
+	LASTRUN=`busybox stat -t $LOG | busybox awk '{print $14}'`
 else
 	LASTRUN=0
 fi;
@@ -20,8 +33,8 @@ INTERVAL=$(busybox expr $CURRDATE - $LASTRUN)
 # If interval is more than the set one, then run the main script
 if [ $INTERVAL -gt $RUN_EVERY ];
 then
-	if [ -e $LOG_FILE ]; then
-		rm $LOG_FILE;
+	if [ -e $LOG ]; then
+		rm $LOG;
 	fi;
 	sync;
 	echo "3" > /proc/sys/vm/drop_caches;
@@ -32,7 +45,7 @@ then
 	else
 		exit 1
 	fi
-	echo "S5 Memory Recovery finished at $( date +"%m-%d-%Y %H:%M:%S" )" | busybox tee -a $LOG_FILE;
+	echo "S5 Memory Recovery finished at $( date +"%m-%d-%Y %H:%M:%S" )" | busybox tee -a $LOG;
 else	
 	exit 0
 fi
