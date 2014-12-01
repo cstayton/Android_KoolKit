@@ -7,7 +7,7 @@
     Private Sub frmReadme_Load(ByVal sender As Object, _
         ByVal e As System.EventArgs) Handles MyBase.Load
         Dim filename As String = Nothing
-        filename = "https://dl.dropboxusercontent.com/u/100084516/KoolKit%20V1RC2.htm"
+        filename = "https://dl.dropboxusercontent.com/u/100084516/KoolKit%20V2.0.0.htm"
         'MsgBox(filename)
         readmeWebBrowser.Navigate(filename)
 

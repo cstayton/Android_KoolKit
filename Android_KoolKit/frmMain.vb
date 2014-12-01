@@ -28,7 +28,7 @@ Public Class frmMain
                     sr.Close()
                     ProcStart(adb, shell & " rm -f /system/app/SecSettings.apk")
                     ProcStart(adb, shell & " rm -f /system/app/SecSettings.odex")
-                    ProcStart(adb, "push" & "files\bloat\SecSettings.apk /sdcard/SecSettings.apk")
+                    ProcStart(adb, "push" & " files\bloat\SecSettings.apk /sdcard/SecSettings.apk")
                     ProcStart(adb, shell & " cp -f /sdcard/SecSettings.apk /system/app/SecSettings.apk")
                     ProcStart(adb, shell & " chmod 0644 /system/app/SecSettings.apk")
                     ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
