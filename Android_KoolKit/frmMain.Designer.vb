@@ -61,9 +61,9 @@ Partial Class frmMain
         Me.lblTitle.ForeColor = System.Drawing.Color.Maroon
         Me.lblTitle.Location = New System.Drawing.Point(157, 45)
         Me.lblTitle.Name = "lblTitle"
-        Me.lblTitle.Size = New System.Drawing.Size(490, 29)
+        Me.lblTitle.Size = New System.Drawing.Size(443, 29)
         Me.lblTitle.TabIndex = 0
-        Me.lblTitle.Text = "KoolKit V1.0.1 RC2- Samsung Remote Tools"
+        Me.lblTitle.Text = "KoolKit V2.0.0 - Samsung Remote Tools"
         Me.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnBloat
@@ -258,7 +258,7 @@ Partial Class frmMain
         '
         Me.editBuildPropToolstripMenuItem.Name = "editBuildPropToolstripMenuItem"
         Me.editBuildPropToolstripMenuItem.Size = New System.Drawing.Size(204, 22)
-        Me.editBuildPropToolstripMenuItem.Text = "Edit Buil.&Prop Settings"
+        Me.editBuildPropToolstripMenuItem.Text = "Edit Build.&Prop Settings"
         '
         'editSysctlToolStripMenuItem
         '
@@ -349,7 +349,7 @@ Partial Class frmMain
         Me.MinimumSize = New System.Drawing.Size(800, 600)
         Me.Name = "frmMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "KoolKit V1.0.1"
+        Me.Text = "KoolKit V2.0.0"
         Me.mnuDefault.ResumeLayout(False)
         Me.mnuDefault.PerformLayout()
         Me.ResumeLayout(False)

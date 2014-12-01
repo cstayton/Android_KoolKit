@@ -35,7 +35,7 @@ V=`getprop ro.product.version`
 L="log -p i -t cm"
 $L "**************************************";
 $L "          KoolKit sysinit";
-$L "            Unity Rom";
+$L "     KoolKit & Unity Development";
 $L "        init.d & userinit.d";
 $L "        Support environment";
 $L "       " $M

@@ -9,7 +9,7 @@ Imports Microsoft.VisualBasic
 Public Class frmMain
     Dim notweaks As String = Nothing
     Dim noinit As String = Nothing
-    Dim adb As String = "adb_tools\adb.exe"
+    Dim adb As String = "files\adb_tools\adb.exe"
     Dim shell As String = "shell" & " su -c"
     Private Sub btn_Click(sender As Object, e As EventArgs) Handles btnBloat.Click, btnInitD.Click, btnBootani.Click, btnTweaks.Click, btnReboot.Click, btnExit.Click
         Dim btn As Button = sender
@@ -17,7 +17,7 @@ Public Class frmMain
         Try
             Select Case btn.Name
                 Case "btnBloat"
-                    Dim sr As New StreamReader("bloat\nobloat.txt")
+                    Dim sr As New StreamReader("files\bloat\nobloat.txt")
                     ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
                     While sr.Peek() <> -1
                         Dim srLine As String = sr.ReadLine()
@@ -26,17 +26,23 @@ Public Class frmMain
                         End If
                     End While
                     sr.Close()
+                    ProcStart(adb, shell & " rm -f /system/app/SecSettings.apk")
+                    ProcStart(adb, shell & " rm -f /system/app/SecSettings.odex")
+                    ProcStart(adb, "push" & "files\bloat\SecSettings.apk /sdcard/SecSettings.apk")
+                    ProcStart(adb, shell & " cp -f /sdcard/SecSettings.apk /system/app/SecSettings.apk")
+                    ProcStart(adb, shell & " chmod 0644 /system/app/SecSettings.apk")
                     ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
                 Case "btnInitD"
                     If noinit <> "" Then
                         MsgBox("Your system already has init.d support enabled, you don't need to run this again")
                     Else
                         ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
-                        ProcStart(adb, "push" & " bin\sysinit /sdcard/sysinit")
+                        ProcStart(adb, "push" & " files\bin\sysinit /sdcard/sysinit")
                         ProcStart(adb, shell & " cp -f /sdcard/sysinit /system/bin/sysinit")
                         ProcStart(adb, shell & " mkdir /system/etc/init.d")
-                        ProcStart(adb, shell & " " & Chr(34) & " echo '/system/xbin/daemonsu --auto-daemon &' >> /system/etc/install-recovery-2.sh" & Chr(34))
-                        ProcStart(adb, shell & " " & Chr(34) & " echo '/system/bin/sysinit' >> /system/etc/install-recovery-2.sh" & Chr(34))
+                        ProcStart(adb, "push" & " files\etc\init.qcom.post_boot.sh /sdcard/init.qcom.post_boot.sh")
+                        ProcStart(adb, shell & " cp -f /sdcard/init.qcom.post_boot.sh /system/etc/init.qcom.post_boot.sh")
+                        ProcStart(adb, shell & " chmod 0755 /system/etc/init.qcom.post_boot.sh")
                         ProcStart(adb, shell & " chmod -R 0755 /system/etc/init.d")
                         ProcStart(adb, shell & " chmod 0755 /system/bin/sysinit")
                         ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
@@ -44,8 +50,8 @@ Public Class frmMain
                 Case "btnBootani" 'Not available for all models
                     ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
                     ProcStart(adb, shell & " cp -f /system/bin/bootanimation /system/bin/bootanimation.bak")
-                    ProcStart(adb, "push" & " bin\bootanimation /sdcard/bootanimation")
-                    ProcStart(adb, "push" & " media\bootanimation.zip /sdcard/bootanimation.zip")
+                    ProcStart(adb, "push" & " files\bin\bootanimation /sdcard/bootanimation")
+                    ProcStart(adb, "push" & " files\media\bootanimation.zip /sdcard/bootanimation.zip")
                     ProcStart(adb, shell & " cp -f /sdcard/bootanimation /system/bin/bootanimation")
                     ProcStart(adb, shell & " cp -f /sdcard/bootanimation.zip /system/media/bootanimation.zip")
                     ProcStart(adb, shell & " cp -f /system/media/audio/ui/PowerOn.ogg /system/media/audio/ui/PowerOn.ogg.bak")
@@ -97,11 +103,11 @@ Public Class frmMain
         Try
             Select Case mnu.Name.ToString
                 Case "editBloatToolStripMenuItem"
-                    ProcStart("adb_tools\notepad++.exe", "bloat\nobloat.txt", 1)
+                    ProcStart("files\adb_tools\notepad++.exe", "files\bloat\nobloat.txt", 1)
                 Case "editBuildPropToolstripMenuItem"
-                    ProcStart("adb_tools\notepad++.exe", "tweaks\build.prop", 1)
+                    ProcStart("files\adb_tools\notepad++.exe", "files\tweaks\build_prop.txt", 1)
                 Case "editSysctlToolStripMenuItem"
-                    ProcStart("adb_tools\notepad++.exe", "sysctl\sysctl.conf", 1)
+                    ProcStart("files\adb_tools\notepad++.exe", "files\sysctl\sysctl.conf", 1)
                 Case "CloseToolStripMenuItem"
                     Application.Exit()
                 Case "InstallSystemToolStripMenuItem"
@@ -136,6 +142,10 @@ Public Class frmMain
             ProcStart(adb, shell & " rm -r /sdcard/xbin")
             ProcStart(adb, shell & " rm -r /sdcard/sysinit")
             ProcStart(adb, shell & " rm -r /sdcard/init.d")
+            ProcStart(adb, shell & " rm -f /sdcard/set_build.sh")
+            ProcStart(adb, shell & " rm -f /sdcard/SecSettings.apk")
+            ProcStart(adb, shell & " rm -r /sdcard/tmp")
+
             ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
         Else
             e.Cancel = True
@@ -172,7 +182,7 @@ Public Class frmMain
             End While
             si.Close()
             My.Computer.FileSystem.DeleteFile("build.prop")
-            My.Computer.FileSystem.DeleteFile("install-recovery-2.sh")
+            My.Computer.FileSystem.DeleteFile("init.qcom.post_boot.sh")
         Catch ex As Exception
             MsgBox("Couldn't detect your device, Please reconnect and try again.")
             Application.Exit()
@@ -198,19 +208,16 @@ Public Class frmMain
 
     Public Function tweaks()
         ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
-        ProcStart(adb, "push" & " xbin /sdcard/xbin")
-        ProcStart(adb, "push" & " scripts /sdcard/init.d")
-        ProcStart(adb, "push" & " sysctl\sysctl.conf /sdcard/sysctl.conf")
-        ProcStart(adb, "push" & " tweaks\customer.xml /sdcard/customer.xml")
-        ProcStart(adb, "push" & " etc\init.qcom.post_boot.sh /sdcard/init.qcom.post_boot.sh")
+        ProcStart(adb, "push" & " files\xbin /sdcard/xbin")
+        ProcStart(adb, "push" & " files\scripts /sdcard/init.d")
+        ProcStart(adb, "push" & " files\sysctl\sysctl.conf /sdcard/sysctl.conf")
+        ProcStart(adb, "push" & " files\tweaks\customer.xml /sdcard/customer.xml")
         ProcStart(adb, shell & " cp -R /sdcard/xbin /system")
         ProcStart(adb, shell & " cp -f /sdcard/sysctl.conf /system/etc/sysctl.conf")
         ProcStart(adb, shell & " cp -f /sdcard/customer.xml /system/csc/customer.xml")
         ProcStart(adb, shell & " cp -R /sdcard/init.d /system/etc")
-        ProcStart(adb, shell & " cp -R /sdcard/init.qcom.post_boot.sh /system/etc/init.qcom.post_boot.sh")
         ProcStart(adb, shell & " chmod 0644 /system/etc/sysctl.conf")
         ProcStart(adb, shell & " chmod 0644 /system/csc/customer.xml")
-        ProcStart(adb, shell & " chmod 0755 /system/etc/init.qcom.post_boot.sh")
         ProcStart(adb, shell & " chmod 0755 /system/xbin/sqlite3")
         ProcStart(adb, shell & " chmod 0755 /system/xbin/tune2fs")
         ProcStart(adb, shell & " chmod 0755 /system/xbin/fstrim")
@@ -221,14 +228,13 @@ Public Class frmMain
         ProcStart(adb, shell & " " & Chr(34) & " sed -i 's/ro.kernel.checkjni.*=.*/# ro.kernel.checkjni/g' /system/build.prop" & Chr(34))
         ProcStart(adb, shell & " " & Chr(34) & " sed -i 's/dalvik.vm.heapsize=36m/# dalvik.vm.heapsize=36m/g' /system/build.prop" & Chr(34))
 
-        Dim st As New StreamReader("tweaks\build_prop.txt")
-        While st.Peek() <> -1
-            Dim stLine As String = st.ReadLine()
-            ProcStart(adb, shell & " " & Chr(34) & " echo " _
-                          & Chr(39) & stLine & Chr(39) & " >> /system/build.prop" & Chr(34))
-        End While
-        st.Close()
+        'build.prop tweaks
 
+        ProcStart(adb, "push" & " files\set_build.sh /sdcard/set_build.sh")
+        ProcStart(adb, "push" & " files\tweaks/build_prop.txt /sdcard/tmp/build_prop.txt")
+        ProcStart(adb, shell & " cp /sdcard/set_build.sh /system/etc/set_build.sh")
+        ProcStart(adb, shell & " chmod 0755 /system/etc/set_build.sh")
+        ProcStart(adb, shell & " ./system/etc/set_build.sh")
         ProcStart(adb, shell & " chmod 0644 /system/build.prop")
         ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
         Return Nothing
@@ -238,12 +244,12 @@ Public Class frmMain
         ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
         If iType = "System" Then
             ProcStart(adb, "push" & " " & Chr(34) & iFile & Chr(34) & " /sdcard/" & cFile)
-            ProcStart(adb, shell & " cp -f /sdcard/" & cFile & " /system/priv-app/" & cFile)
-            ProcStart(adb, shell & " chmod -R 0644 /system/priv-app/" & cFile)
+            ProcStart(adb, shell & " cp -f /sdcard/" & cFile & " /system/app/" & cFile)
+            ProcStart(adb, shell & " chmod -R 0644 /system/app/" & cFile)
         ElseIf iType = "User" Then
             ProcStart(adb, "install" & " " & Chr(34) & iFile & Chr(34))
         ElseIf iType = "Busybox" Then
-            ProcStart(adb, "push" & " busybox/" & cFile & " /sdcard/" & cFile)
+            ProcStart(adb, "push" & " files\busybox\" & cFile & " /sdcard/" & cFile)
             ProcStart(adb, shell & " cp -f /sdcard/" & cFile & " /system/xbin/" & cFile)
             ProcStart(adb, shell & " chmod 0755 /system/xbin/" & cFile)
             ProcStart(adb, shell & " chown 0.0 /system/xbin/" & cFile)

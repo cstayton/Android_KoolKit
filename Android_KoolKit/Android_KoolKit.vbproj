@@ -141,6 +141,54 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="files\bin\bootanimation">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\bin\sysinit">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\bloat\SecSettings.apk">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\busybox\busybox">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\etc\init.qcom.post_boot.sh">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\media\bootanimation.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\scripts\00runonce">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\scripts\01sysctl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\scripts\02misctweaks">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\scripts\03memory_clean">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\scripts\99SuperSUDaemon">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\set_build.sh">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\sysctl\sysctl.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\xbin\fstrim">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\xbin\sqlite3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="files\xbin\tune2fs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -204,18 +252,6 @@
     <None Include="resources\28.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="files\adb.exe" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="files\AdbWinApi.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="files\AdbWinUsbApi.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="files\fastboot.exe" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="resources\5_64x64.png" />
   </ItemGroup>
   <ItemGroup>
@@ -223,6 +259,35 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="files\adb_tools\adb.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\adb_tools\AdbWinApi.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\adb_tools\AdbWinUsbApi.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\adb_tools\fastboot.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\adb_tools\notepad++.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\adb_tools\SciLexer.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\bloat\nobloat.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\tweaks\build_prop.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\tweaks\customer.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

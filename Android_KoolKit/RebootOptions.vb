@@ -5,13 +5,13 @@
         Try
             Select Case btn.Name
                 Case "btnDevice"
-                    frmMain.ProcStart(frmMain.App_Path() & "adb_tools\adb.exe", "reboot")
+                    frmMain.ProcStart(frmMain.App_Path() & "files\adb_tools\adb.exe", "reboot")
                     Me.Dispose()
                 Case "btnRecovery"
-                    frmMain.ProcStart(frmMain.App_Path() & "adb_tools\adb.exe", "reboot recovery")
+                    frmMain.ProcStart(frmMain.App_Path() & "files\adb_tools\adb.exe", "reboot recovery")
                     Me.Dispose()
                 Case "btnBL"
-                    frmMain.ProcStart(frmMain.App_Path() & "adb_tools\adb.exe", "reboot bootloader")
+                    frmMain.ProcStart(frmMain.App_Path() & "files\adb_tools\adb.exe", "reboot bootloader")
                     Me.Dispose()
                 Case "btnExit"
                     Me.Dispose()
