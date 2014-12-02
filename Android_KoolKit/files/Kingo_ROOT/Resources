@@ -1,0 +1,15 @@
+[Update]
+Pid="com.kingoapp.com.en"
+UpdateUrl="http://download.kingoapp.com/KingoRootSetup.exe"
+Update=true
+Interval=0
+
+
+[Application]
+Version="1.2.7.2149"
+DisplayName="Kingo Android ROOT"
+Channel=""
+DefLang="en"
+
+[Host]
+Api=http://service.kingoapp.com/api/

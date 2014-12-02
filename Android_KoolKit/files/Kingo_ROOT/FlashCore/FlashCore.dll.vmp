@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+	<Protection
+		InputFileName=".\FlashCore.dll"
+		Options="1480"
+		CheckKernelDebugger="true"
+		>
+		<Messages
+		/>
+		<Folders
+		/>
+		<Procedures>
+			<Procedure
+				MapAddress="encryptHttpBuffer(class QByteArray &amp;)"
+				CompilationType="2"
+			/>
+			<Procedure
+				MapAddress="encryptLogString(class QString const &amp;)"
+				CompilationType="2"
+			/>
+			<Procedure
+				MapAddress="decryptLogString(class QByteArray const &amp;)"
+				CompilationType="2"
+			/>
+			<Procedure
+				MapAddress="decryptScriptBuffer(class QByteArray const &amp;)"
+				CompilationType="2"
+			/>
+			<Procedure
+				MapAddress="decryptDriverString(class QByteArray &amp;)"
+				CompilationType="2"
+			/>
+		</Procedures>
+	</Protection>
+	<Script
+	/>
+</Document>

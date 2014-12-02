@@ -1,0 +1,80 @@
+Software License Agreement for Android ROOT
+
+ATTENTION PLEASE READ THIS SOFTWARE LICENSE AGREEMENT ("AGREEMENT", "LICENSE") CAREFULLY IN ACCORDANCE WITH ALL THE RIGHTS AND RESTRICTIONS BEFORE USING ANDROID ROOT SOFTWARE ("SOFTWARE", "SOFTWARE PRODUCT").
+
+This is a legal agreement between you ("You", "Your"), the end user, and Kingosoft Technology Ltd., the developer of Android ROOT ("Kingosoft", "Our Company", "We", "Us"), regarding your use of Android ROOT.
+ 
+1.	ACCEPTANCE
+
+Either - YOU SHALL BE DEEMED TO HAVE ACCEPTED THE TERMS OF THIS LICENSE BY DOWNLOADING, INSTALLING, COPYING, ACCESSING OR OTHERWISE USE THE SOFTWARE. or - BY CLICKING ON THE ACCEPT BUTTON, YOU ARE CONSENTING TO BE BOUND BY AND ARE BECOMING A PARTY TO THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, DO NOT INSTALL THE SOFTWARE.
+
+2.	COPYRIGHT
+
+The software product is owned by Kingosoft and protected by copyright law, international copyright treaties and other intellectual property protection laws and regulations, as well as its intellectual property rights and relevant information including but not limited to the expressions and word combinations, icons, figure ornaments, images, graphics, color, interface design, layout framework, the data, additional procedures, printed materials or electronic documentation.
+
+3.	GRANT OF LICENSE
+
+Subjected to the provisions contained herein, Kingosoft hereby grants you a non-exclusive, non-commercial and unlimited license to download, install and use the software product free of charge. You are also permitted freely to copy, distribute and transmit the software product to any other individual provided (i) that you do not make any charge or derive any commercial benefit from so copying and distributing the software product, and (ii) that ensure each copy, distribute and transmit are true and complete, including all relevant information of the software product, electronic documents, copyrights, trademarks and also this agreement. The software product attached with this agreement is the beta version. Users have no right to copy, distribute, dissemble, sell the beta version or provide information related to the beta version to any third party without the written consent of our company. 
+
+
+4.	RESTRICTIONS ON USE
+
+4.1 You may not, and you may not permit others to (i) reverse engineer, decompile, decode, decrypt, disassemble, or in any way derive source code from, the Software; (ii) modify, distribute, or create derivative works of the Software; (iii) copy (other than one back-up copy), distribute, publicly display, transmit, sell, rent, lease or otherwise exploit the software. 
+
+4.2 No Separation of Components The software is licensed as a single product. Its component parts may not be used separately from other parts. 
+
+4.3 For commercial sales, copying, distribution including but not limited to software sales, pre-installation and software bundles, must obtain the written authorization and permission of Kingosoft.
+
+4.4 Reservation of Rights All other rights that are not expressly authorized in this Agreement remain with our company. Users have to obtain the company¡¯s written consent to all the reserved rights. 
+
+5.	USER INSTRUCTIONS
+
+Android ROOT is a program running on PC to root Android devices. Users can gain high-level permission by rooting Android devices using Android ROOT, which is a modification to the original system. 
+
+5.1 Before using Android ROOT, users should be fully aware of the potential risks (including but not limited to) and in no event shall Kingosoft be liable for (i) any data loss incurred for the failure of previous backup, (ii) the voidance of device warranty by rooting, (iii) the inability to auto-update officially, (iv) the malfunctioning of certain applications caused by the changes of permission, (v) the misoperation and operation failure caused by the incomprehension of Android rooting.
+
+5.2 Android ROOT software product contains both the PC-Client software and the application that runs on Android device, which provides data backup and recovery functions and assist ROOT process with PC client. The PC-Client is only compatible with Windows XP, Windows Vista and Windows 7. If you forgo using the software product for any reason after installing, you can remove it under the Windows Control Panel.
+
+5.3 Kingosoft provides software support for Android ROOT.
+
+5.4 Kingosoft reserves all rights in revising and updating Android ROOT.
+
+5.5 Android ROOT DOES NOT contain any malicious codes aimed at undermining user data and accessing users¡¯ private information, or any function codes monitoring and tracking user computer, DOES NOT monitor users¡¯ online and offline behavior, collect any user information of other software and documents, or disclose any private information.
+
+5.6 It¡¯s your obligation to use the software product safely and to comply with all applicable laws, regulations and the Agreement. Users have no right to implement such behaviors including but not limited to (i) delete or alter any electric data for software right management, (ii) intentionally escape from or disrupt the technical measures adopted by the copyright owner for protecting the software copyright, (iii) mislead and deceive others by using the software, (iv) violate states regulations and deletes alters, add, and interfere in computer information systems, causing abnormal operations of the systems and grave consequences, (v) invade computer information system and use computer information resources without permission, (vi) delete, alter and add computer information network functions without permission, (vii) delete, alter and add data and applications that are stored, processed or transmitted in computer information networks without permission, (viii) intentionally making, dissemination of computer viruses and other destructive procedures, impact the computer information systems functioning, and any other activities which harm the network.
+
+5.7 Kingosoft CANNOT guarantee the software downloaded from unspecified sites or acquired from unofficial released media by our company free of computer virus, concealed Trojan-horse programs or malware, which could lead to serious unpredictable risks. It is highly recommended not to download, install and use such kind of software, and the consequences resulting from which shall not expose Kingosoft to any legal liability.
+
+5.8 Privacy Policy
+
+Kingosoft commits to abide by all applicable laws and regulations and will not disclose to any third party without the prior written consent of user, any information obtained from using the Software. To implement related functionalities, the software will legally gather and use user information in the following ways including but not limited to (i) acquiring the OS version of PC and Android device so as to provide service that corresponds to the device in the process of connection, (ii) acquiring the device model and android version so as to retrieve relevant service, (iii) calculating success rate of the rooting operation, (iv) reporting user behaviors including installing, uninstalling and rooting operation to company server by counting the visit frequency of a server-side page, which will be used to improve software and related services. All data and information collected will not be associated with personal identification of users in any way. 
+
+6.	DISCLAIMER OF WARRANTIES
+
+ANDROID ROOT DOES NOT WARRANT THAT THE SOFTWARE IS ERROR FREE. ANDROID ROOT DISCLAIMS ALL OTHER WARRANTIES WITH RESPECT TO THE SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES OR LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY MAY LAST, OR THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATIONS OR EXCLUSIONS MAY NOT APPLY TO YOU. THIS WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS AND YOU MAY ALSO HAVE OTHER RIGHTS WHICH VARY FROM JURISDICTION TO JURISDICTION.
+
+
+7.	LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL ANDROID ROOT, ITS SUPPLIERS BE LIABLE TO YOU FOR ANY CONSEQUENTIAL, SPECIAL, INCIDENTAL OR INDIRECT DAMAGES WHATSOEVER RESULTING FROM ANY (I) ERRORS, MISTAKES, OR INACCURACIES WITHIN THE SOFTWARE, (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF OUR SOFTWARE, (III) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS ANDOR ANY AND ALL PERSONAL INFORMATION ANDOR FINANCIAL INFORMATION STORED THEREIN, (IV) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM OUR SERVICES OR SOFTWARE, (IV) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE, WHICH MAY BE TRANSMITTED TO OR THROUGH OUR SOFTWARE BY ANY THIRD PARTY, ANDOR (V) ANY ERRORS OR OMISSIONS IN ANY OF OUR SOFTWARE OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF YOUR USE OF OUR SOFTWARE OR SERVICES, WHETHER BASED ON WARRANTY, CONTRACT, TORT, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT THE COMPANY IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THE FOREGOING LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION. IN NO EVENT WILL ANDROID ROOT SOFTWARE LIABLILITY FOR ANY CLAIM, WHETHER IN CONTRACT, TORT OR ANY OTHER THEORY OF LIABILITY, EXCEED THE LICENSE FEE PAID BY YOU, IF ANY.
+
+IN THE EVENT THAT YOU EXPERIENCE A PROBLEM WITH A THRID PARTY WHILE USING OUR SOFTWARE, YOU AGREE THAT YOUR SOLE REMEDY IS WITH THAT THIRD PARTY AND NOT ANDROID ROOT. ANDROID ROOT IS NOT LIABLE TO YOU OR TO THIRD PARTIES FOR ANY DAMAGE, HARM, INJURY OR CLAIM THAT ARISES FROM YOUR USE OF SOFTWARE. THIS AGREEMENT SETS FORTH THE ENTIRE LIABILITY OF ANDROID ROOT, ITS AFFILIATES AND YOUR EXCLUSIVE REMEDY WITH RESPECT TO THE SOFTWARE AND ITS USE.
+
+8.	FORUM OF DISPUTE
+
+9.1 If you bring a dispute in a manner other than in accordance with this section, you agree that we may move to have it dismissed, and that you will be responsible for our reasonable attorneys¡¯ fees, court costs, and disbursements in doing so.
+
+9.2 You agree that in the event of a dispute arising from or relating to this Agreement or our provision of services to you, the unsuccessful party will be responsible for reimbursing the successful party¡¯s reasonable attorneys¡¯ fees, costs, and disbursements in relation to the dispute.
+
+9.	MISCELLANEOUS
+
+9.1 In the event of invalidity of any provision of this license, the parties agree that such invalidity shall not affect the validity of the remaining portions of this license.
+
+9.2 We have the right to unilaterally modify or change the contents of this license agreement in accordance with relevant laws and regulations, changes in company¡¯s operations and adjustment in business strategy. The revised agreement will be released in our official website (www.kingoapp.com) and attached to the new version of software. In the event of a dispute over relevant issues, the latest agreement shall prevail. If you do not agree to changes to the content, remove the software on your own. If you continue using the Software, you are deemed to accept changes to this Agreement.
+
+9.3 Kingosoft reserves all rights in interpreting and revising this Agreement to the extent permitted by law.
+
+
+ACKNOWLEDGMENT BY INSTALLING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTAND THE FORE GOING AND THAT YOU AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS. YOU ALSO AGREE THAT THIS AGREEMENT IS THE COMPLETE AND EXCLUSIVE STATEMENT OF AGREEMENT BETWEEN THE PARTIES AND SUPERSEDES ALL PROPOSED OR PRIOR AGREEMENTS, ORAL OR WRITTEN, AND ANY OTHER COMMUNICATIONS BETWEEN THE PARTIES RELATING TO THE LICENSE DESCRIBED HEREIN.
+
+
