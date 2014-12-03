@@ -349,6 +349,7 @@
 		<row><td>ISX_DEFAULTCOMPONENT10</td><td>{21307D93-93DF-44B7-B506-7C8EF2120DA3}</td><td>SYSCTL</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT11</td><td>{73DBB3A3-915F-4805-B84F-FB4BEBF7CAAD}</td><td>TWEAKS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT12</td><td>{DA4944CF-3C80-4FF2-90AD-FB69EF2427D5}</td><td>XBIN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT13</td><td>{0594C9C1-596C-45AC-BCBD-C833C9541326}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{A1952339-73A2-4965-8BF7-18DA6BA06649}</td><td>FILES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{BFBF8832-EF09-4F0B-AB15-EAF57778C4F6}</td><td>ADB_TOOLS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{D9F11DE2-47A9-45A2-88F4-7319384AFFE2}</td><td>BIN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
@@ -1071,6 +1072,7 @@
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
 		<row><td>ADB_TOOLS</td><td>ISX_DEFAULTCOMPONENT3</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT13</td></row>
 		<row><td>USERPROFILE</td><td>ISX_DEFAULTCOMPONENT</td></row>
 	</table>
 
@@ -1904,6 +1906,7 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT10</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT11</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT12</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT13</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT3</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT4</td></row>
@@ -2109,6 +2112,7 @@
 		<row><td>ISX_DEFAULTCOMPONENT10</td><td/><td/><td>_D4BB02AF_3965_4A39_916F_AE50168BE278_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT11</td><td/><td/><td>_21057A8C_76D6_4BCC_A9F6_ECB039F9D5F1_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT12</td><td/><td/><td>_5CC0FB82_7815_4B50_8F7F_E6D4777CA924_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT13</td><td/><td/><td>_5A155F43_853D_4B37_91F5_E335EF6B365D_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_A0ACA419_D371_461F_A3FB_DA7011104277_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_A0C33489_E42C_4F5C_9B43_481ADB3B7CEA_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_8301FA6B_AED3_460D_801B_5DB5A07611EB_FILTER</td><td/><td/><td/><td/></row>
@@ -2737,7 +2741,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Unity Development</td><td>0</td><td/><td>-173876494</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Unity Development</td><td>0</td><td/><td>237169363</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION45FULL</td><td>1033</td><td>Microsoft .NET Framework 4.5 Full package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>-173888686</td></row>
@@ -3843,8 +3847,8 @@
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td/><td>0</td><td/><td>-173899022</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>http://forum.xda-developers.com/showthread.php?t=2717246</td><td>0</td><td/><td>-173913294</td></row>
-		<row><td>ID_STRING3</td><td>1033</td><td>Unity Development</td><td>0</td><td/><td>-173876494</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>http://stacra.byethost7.com/</td><td>0</td><td/><td>237136755</td></row>
+		<row><td>ID_STRING3</td><td>1033</td><td>Unity Development</td><td>0</td><td/><td>237169363</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>LAUNCH~1.EXE|Launch Android_KoolKit.exe</td><td>0</td><td/><td>-173872174</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>-173901070</td></row>
 	</table>
@@ -4088,7 +4092,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{9C4A072E-5DD3-42C1-81B0-838F56E14E8D}</td></row>
 		<row><td>ISUSSignature</td><td>{76E16E02-7C83-4114-B70F-0B9693D7B7C2}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewRealSetupDesign,viewUI,viewSupportFiles,viewProject</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewRealSetupDesign,viewUI,viewSupportFiles,viewProject,viewSetupDesign,viewSetupTypes,viewUpgradePaths,viewUpdateService,viewAppFiles,viewFeatureFiles,viewObjects,viewDependencies,viewShortcuts,viewRegistry,viewIniFiles,viewTextFiles,viewXMLConfig,viewServices,viewBillboards,viewTextMessages,viewSystemSearch,viewInstallScriptStd,viewCustomActions,viewISToday</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4146,7 +4150,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 	<table name="LaunchCondition">
 		<col key="yes" def="s255">Condition</col>
 		<col def="l255">Description</col>
-		<row><td>(Not Version9X) And (Not VersionNT=400) And (Not VersionNT=500) And (Not (VersionNT=601 And Not (MsiNTProductType=1))) And (Not (VersionNT=602 And Not (MsiNTProductType=1))) And (Not (VersionNT=603 And Not (MsiNTProductType=1)))</td><td>##IDPROP_EXPRESS_LAUNCH_CONDITION_OS##</td></row>
 		<row><td>DOTNETVERSION45FULL&gt;="#1"</td><td>##IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION45FULL##</td></row>
 	</table>
 
