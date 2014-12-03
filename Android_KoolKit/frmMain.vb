@@ -37,7 +37,7 @@ Public Class frmMain
 						ProcStart(adb, shell & " cp -f /sdcard/SecSettings.apk /system/app/SecSettings.apk")
 						ProcStart(adb, shell & " chmod 0644 /system/app/SecSettings.apk")
 					else if lblModel.Text = "SM-T217T" then
-						msgbox("Tmobile devices not yet supported")
+						'SM-T217T not currently supported
 					end if	
 '						ProcStart(adb, shell & " mount -o remount,ro -t auto /system")					
                 Case "btnInitD"
