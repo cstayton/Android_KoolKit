@@ -36,10 +36,10 @@ Public Class frmMain
 						ProcStart(adb, "push" & " files\bloat\ATT\SecSettings.apk /sdcard/SecSettings.apk")
 						ProcStart(adb, shell & " cp -f /sdcard/SecSettings.apk /system/app/SecSettings.apk")
 						ProcStart(adb, shell & " chmod 0644 /system/app/SecSettings.apk")
-						ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
 					else if lblModel.Text = "SM-T217T" then
 						msgbox("Tmobile devices not yet supported")
 					end if	
+						ProcStart(adb, shell & " mount -o remount,ro -t auto /system")					
                 Case "btnInitD"
                     If noinit <> "" Then
                         MsgBox("Your system already has init.d support enabled, you don't need to run this again")
@@ -53,8 +53,8 @@ Public Class frmMain
                         ProcStart(adb, shell & " chmod 0755 /system/etc/init.qcom.post_boot.sh")
                         ProcStart(adb, shell & " chmod -R 0755 /system/etc/init.d")
                         ProcStart(adb, shell & " chmod 0755 /system/bin/sysinit")
-                        ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
                     End If
+					ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
                 Case "btnBootani" 'Not available for all models
                     ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
                     ProcStart(adb, shell & " cp -f /system/bin/bootanimation /system/bin/bootanimation.bak")
