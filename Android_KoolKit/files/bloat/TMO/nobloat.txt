@@ -1,0 +1,52 @@
+#============================================#
+#Bloatware Removal DB for s5mods Tab3 tweaks #
+#path is case sensitive and must be included #
+#filenames are Case Sensitive                #
+#include odex file if it exists              #
+#============================================#
+#
+#Scripts and related txt components created by cstayton@xda 2014
+#Please do not copy or re-link without my permission
+#
+#Default System apks removed by script
+#Add your additional apks in this section
+#
+
+#
+#==============================================#
+#Samsung Knox notification removal             #
+#Uncomment lines below if you wish to remove   #
+#Do not add components or apks to this section #
+#Not all files and folders exist in            #
+#every ROM but this will check for all         #
+#instances and coresponding data               #
+#==============================================#
+#
+#Samsung Knox notifications
+/system/app/ContainerAgent.apk
+/system/app/ContainerAgent.odex
+/system/app/KNOXAgent.apk
+/system/app/KNOXAgent.odex
+/system/app/KnoxAttestationAgent.apk
+/system/app/KnoxAttestationAgent.odex
+/system/app/KnoxSetupWizardClient.apk
+/system/app/KnoxSetupWizardClient.odex
+/system/app/KNOXStore.apk
+/system/app/KNOXStore.odex
+/system/app/KLMSAgent.apk
+/system/app/KLMSAgent.odex
+/system/lib/libknox_encryption.so
+#
+/system/container
+/system/preloadedkiosk
+/system/preloadedsso
+/data/data/com.sec.knox.seandroid
+/data/data/com.sec.knox.store
+/data/data/com.sec.knox.containeragent
+/data/data/com.sec.enterprise.knox.attestation
+/data/data/com.sec.knox.app.container
+/data/data/com.sec.knox.eventsmanager
+/data/data/com.samsung.klmsagent
+/data/data/com.samsung.android.walletmanager
+/data/clipboard/knox
+/system/etc/secure_storage/com.sec.knox.store

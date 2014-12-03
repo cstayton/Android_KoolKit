@@ -17,7 +17,11 @@ Public Class frmMain
         Try
             Select Case btn.Name
                 Case "btnBloat"
-                    Dim sr As New StreamReader("files\bloat\nobloat.txt")
+				if lblModel.Text = "SM-T217A" then 
+                    Dim sr As New StreamReader("files\bloat\ATT\nobloat.txt")
+				else if lblModel.Text = "SM-T217T" then
+					Dim sr As New StreamReader("files\bloat\TMO\nobloat.txt")
+				end if
                     ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
                     While sr.Peek() <> -1
                         Dim srLine As String = sr.ReadLine()
@@ -26,12 +30,16 @@ Public Class frmMain
                         End If
                     End While
                     sr.Close()
-                    ProcStart(adb, shell & " rm -f /system/app/SecSettings.apk")
-                    ProcStart(adb, shell & " rm -f /system/app/SecSettings.odex")
-                    ProcStart(adb, "push" & " files\bloat\SecSettings.apk /sdcard/SecSettings.apk")
-                    ProcStart(adb, shell & " cp -f /sdcard/SecSettings.apk /system/app/SecSettings.apk")
-                    ProcStart(adb, shell & " chmod 0644 /system/app/SecSettings.apk")
-                    ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
+					if lblModel.Text = "SM-T217A" then
+						ProcStart(adb, shell & " rm -f /system/app/SecSettings.apk")
+						ProcStart(adb, shell & " rm -f /system/app/SecSettings.odex")
+						ProcStart(adb, "push" & " files\bloat\ATT\SecSettings.apk /sdcard/SecSettings.apk")
+						ProcStart(adb, shell & " cp -f /sdcard/SecSettings.apk /system/app/SecSettings.apk")
+						ProcStart(adb, shell & " chmod 0644 /system/app/SecSettings.apk")
+						ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
+					else if lblModel.Text = "SM-T217T" then
+						msgbox("Tmobile devices not yet supported")
+					end if	
                 Case "btnInitD"
                     If noinit <> "" Then
                         MsgBox("Your system already has init.d support enabled, you don't need to run this again")
