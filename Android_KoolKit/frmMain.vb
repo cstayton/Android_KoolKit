@@ -112,7 +112,11 @@ Public Class frmMain
         Try
             Select Case mnu.Name.ToString
                 Case "editBloatToolStripMenuItem"
-                    ProcStart("files\adb_tools\notepad++.exe", "files\bloat\nobloat.txt", 1)
+				if lblModel.Text = "SM-T217A" then 
+                    ProcStart("files\adb_tools\notepad++.exe", "files\bloat\ATT\nobloat.txt", 1)
+				else if lblModel.Text = "SM-T217T" then
+					ProcStart("files\adb_tools\notepad++.exe", "files\bloat\TMO\nobloat.txt", 1)
+				End If
                 Case "editBuildPropToolstripMenuItem"
                     ProcStart("files\adb_tools\notepad++.exe", "files\tweaks\build_prop.txt", 1)
                 Case "editSysctlToolStripMenuItem"
