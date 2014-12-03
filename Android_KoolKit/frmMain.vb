@@ -91,7 +91,8 @@ Public Class frmMain
 
     Private Sub FileMenuItem_Click(sender As Object, e As EventArgs) Handles FileMenuItem.Click, CloseToolStripMenuItem.Click, _
                                InstallSystemToolStripMenuItem.Click, InstallUserToolStripMenuItem.Click, InstallBusyboxToolStripMenuItem.Click, _
-                               editBloatToolStripMenuItem.Click, editBuildPropToolstripMenuItem.Click, editSysctlToolStripMenuItem.Click
+                               editBloatToolStripMenuItem.Click, editBuildPropToolstripMenuItem.Click, editSysctlToolStripMenuItem.Click, _
+                               RootYourDeviceToolStripMenuItem.Click
 
         Dim mnu As ToolStripMenuItem = DirectCast(sender, ToolStripMenuItem)
         Dim iFileDialog As New OpenFileDialog()
@@ -122,6 +123,8 @@ Public Class frmMain
                     installApk("User", fName, cName)
                 Case "InstallBusyboxToolStripMenuItem"
                     installApk("Busybox", "busybox", "busybox")
+                Case "RootYourDeviceToolStripMenuItem"
+                    ProcStart("files\Kingo_ROOT\Kingo_Root.exe")
             End Select
 
         Catch ex As Exception

@@ -50,6 +50,7 @@ Partial Class frmMain
         Me.toolsMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InstallBusyboxToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.lblPowerOn = New System.Windows.Forms.Label()
+        Me.RootYourDeviceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuDefault.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -298,7 +299,7 @@ Partial Class frmMain
         '
         'toolsMenuItem
         '
-        Me.toolsMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InstallBusyboxToolStripMenuItem})
+        Me.toolsMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InstallBusyboxToolStripMenuItem, Me.RootYourDeviceToolStripMenuItem})
         Me.toolsMenuItem.Name = "toolsMenuItem"
         Me.toolsMenuItem.Size = New System.Drawing.Size(48, 20)
         Me.toolsMenuItem.Text = "&Tools"
@@ -306,7 +307,7 @@ Partial Class frmMain
         'InstallBusyboxToolStripMenuItem
         '
         Me.InstallBusyboxToolStripMenuItem.Name = "InstallBusyboxToolStripMenuItem"
-        Me.InstallBusyboxToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.InstallBusyboxToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
         Me.InstallBusyboxToolStripMenuItem.Text = "Install Busybox"
         '
         'lblPowerOn
@@ -318,6 +319,12 @@ Partial Class frmMain
         Me.lblPowerOn.Size = New System.Drawing.Size(130, 13)
         Me.lblPowerOn.TabIndex = 15
         Me.lblPowerOn.Text = "(Disables PowerOn Audio)"
+        '
+        'RootYourDeviceToolStripMenuItem
+        '
+        Me.RootYourDeviceToolStripMenuItem.Name = "RootYourDeviceToolStripMenuItem"
+        Me.RootYourDeviceToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.RootYourDeviceToolStripMenuItem.Text = "Root Your Device"
         '
         'frmMain
         '
@@ -383,5 +390,6 @@ Partial Class frmMain
     Friend WithEvents editBuildPropToolstripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents filemnuSeperator As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents editSysctlToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RootYourDeviceToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class

@@ -342,15 +342,32 @@
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
 		<row><td>AdbWinApi.dll</td><td>{AF1A238F-DF97-48F2-AE2E-779AD0F132B7}</td><td>ADB_TOOLS</td><td>2</td><td/><td>adbwinapi.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AdbWinApi.dll1</td><td>{5F9AEF0C-0496-4565-ABE3-0DB7C8D5059A}</td><td>TOOLS</td><td>2</td><td/><td>adbwinapi.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>AdbWinUsbApi.dll</td><td>{53EBA6A3-08AB-403D-B94A-AA051A3A7301}</td><td>ADB_TOOLS</td><td>2</td><td/><td>adbwinusbapi.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AdbWinUsbApi.dll1</td><td>{6DD02CA8-AFD7-480F-9533-17CFF355EB73}</td><td>TOOLS</td><td>2</td><td/><td>adbwinusbapi.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>Android_KoolKit.exe</td><td>{9CB5F0D2-497B-4FA4-9A8D-ECC9E2D60229}</td><td>ANDROID_KOOLKIT</td><td>2</td><td/><td>android_koolkit.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Components.dll</td><td>{9D8384C9-9020-4A8B-988D-6BEEA85C74BB}</td><td>COMPONENTS</td><td>2</td><td/><td>components.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DPInst.exe</td><td>{03A1B137-DAE1-4A95-878D-ACF85A3925C0}</td><td>TOOLS</td><td>2</td><td/><td>dpinst.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DPInst64.exe</td><td>{01A0E234-99B8-45DE-BF81-636EAA9412BC}</td><td>TOOLS</td><td>2</td><td/><td>dpinst64.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>FlashCore.dll</td><td>{4AA96C0E-90C0-4D3A-A756-F00F89E13DB0}</td><td>FLASHCORE</td><td>2</td><td/><td>flashcore.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{3A797E73-F326-45FD-A15F-935F4A67DEC8}</td><td>USERPROFILE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{95C82FE5-377B-4C22-8976-C3BD862C0604}</td><td>ANDROID_KOOLKIT</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT10</td><td>{21307D93-93DF-44B7-B506-7C8EF2120DA3}</td><td>SYSCTL</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT11</td><td>{73DBB3A3-915F-4805-B84F-FB4BEBF7CAAD}</td><td>TWEAKS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT12</td><td>{DA4944CF-3C80-4FF2-90AD-FB69EF2427D5}</td><td>XBIN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT13</td><td>{0594C9C1-596C-45AC-BCBD-C833C9541326}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT14</td><td>{1AE19B85-24C2-4F99-A503-06B7040095E6}</td><td>DATABASEDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT15</td><td>{1A1C51E3-CA70-407E-88DF-A277EC25BC00}</td><td>KINGO_ROOT</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT16</td><td>{2BBAD2CF-5A0F-4CE5-BBF3-5CDDDED26701}</td><td>COMPONENTS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT17</td><td>{DDA70CED-30D9-4FBD-A683-8695222BF147}</td><td>FILES1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT18</td><td>{8713B03B-9A53-47E7-9EA0-C3F72DB4880E}</td><td>FLASHCORE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT19</td><td>{A0DB257D-4E13-4908-B2FB-7DCACC57DA2D}</td><td>IMAGEFORMATS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{A1952339-73A2-4965-8BF7-18DA6BA06649}</td><td>FILES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT20</td><td>{2ADDAFA6-647D-4216-B01B-13AB5FB17068}</td><td>LANGUAGE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT21</td><td>{71CE6D68-F509-44CD-8CDA-A276B290E2BB}</td><td>QTWEBKIT</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT22</td><td>{306AA11D-5834-472D-87E3-F882D9C0E285}</td><td>SETUP</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT23</td><td>{607728EA-6262-49F3-85AA-540548F8F362}</td><td>SQLDRIVERS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT24</td><td>{C9DCA3F5-D3DC-435C-87E3-18A61BB7ED02}</td><td>TOOLS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{BFBF8832-EF09-4F0B-AB15-EAF57778C4F6}</td><td>ADB_TOOLS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{D9F11DE2-47A9-45A2-88F4-7319384AFFE2}</td><td>BIN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT5</td><td>{E897927E-91A6-43BB-B2FE-F159503C0AD4}</td><td>BLOAT</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
@@ -358,10 +375,47 @@
 		<row><td>ISX_DEFAULTCOMPONENT7</td><td>{C697ADF1-966D-4090-9AC3-90D129457E41}</td><td>ETC</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT8</td><td>{A2AD7C8F-4DE5-428F-9A2F-20E7E776D98B}</td><td>MEDIA</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT9</td><td>{3FC24B21-E4BE-41C4-BA4A-766B65A2ABFA}</td><td>SCRIPTS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Kingo_Root.exe</td><td>{B1DA5E28-3A0B-4E07-B180-0DA5FA0872FE}</td><td>KINGO_ROOT</td><td>2</td><td/><td>kingo_root.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>QtCore4.dll</td><td>{E63FB74A-1913-4399-9292-50E479E5B3E4}</td><td>KINGO_ROOT</td><td>2</td><td/><td>qtcore4.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>QtDeclarative4.dll</td><td>{F2577E89-3F3F-4F1D-9BA5-7544A1B67129}</td><td>KINGO_ROOT</td><td>2</td><td/><td>qtdeclarative4.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>QtGui4.dll</td><td>{C3FD9630-3AA4-49ED-B28A-07FD18F435AD}</td><td>KINGO_ROOT</td><td>2</td><td/><td>qtgui4.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>QtNetwork4.dll</td><td>{006AA684-857D-4958-BE14-0326C4B38FEE}</td><td>KINGO_ROOT</td><td>2</td><td/><td>qtnetwork4.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>QtScript4.dll</td><td>{ECB62A5C-5971-4064-8E94-AEB7452E5C3E}</td><td>KINGO_ROOT</td><td>2</td><td/><td>qtscript4.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>QtSql4.dll</td><td>{AF66BF0E-1EEA-41D0-B56F-D770E13FC15A}</td><td>KINGO_ROOT</td><td>2</td><td/><td>qtsql4.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>QtWebKit4.dll</td><td>{9CDC89C6-73E9-453E-8A4F-97A79E7A5FE0}</td><td>KINGO_ROOT</td><td>2</td><td/><td>qtwebkit4.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>QtXml4.dll</td><td>{E124B73E-2C4D-4023-BCBD-77355926D12A}</td><td>KINGO_ROOT</td><td>2</td><td/><td>qtxml4.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>QtXmlPatterns4.dll</td><td>{9AE39148-90F1-48FE-9EE0-32CDC27C00BB}</td><td>KINGO_ROOT</td><td>2</td><td/><td>qtxmlpatterns4.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>SciLexer.dll</td><td>{642D85C1-992D-450C-A86A-D9BA1F4D2314}</td><td>ADB_TOOLS</td><td>2</td><td/><td>scilexer.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>_z.dll</td><td>{33743B30-7FF5-439E-B2BD-94950AEBE52A}</td><td>TOOLS</td><td>2</td><td/><td>_z.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>_z.exe</td><td>{B273B46B-DB61-4DBC-AC57-507EC8B42233}</td><td>TOOLS</td><td>2</td><td/><td>_z.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>aapt.exe</td><td>{815B043E-DE45-48FD-A6AA-CCDDB352BA56}</td><td>TOOLS</td><td>2</td><td/><td>aapt.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>adb.exe</td><td>{B89232A3-0A5B-4508-BFD7-8BAB9D3CACFD}</td><td>ADB_TOOLS</td><td>2</td><td/><td>adb.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>adb.exe1</td><td>{8C3EC852-9F2F-46FF-9AEE-8578A8B1697C}</td><td>TOOLS</td><td>2</td><td/><td>adb.exe1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>cyggcc_s_1.dll</td><td>{C7816669-9CEE-4542-992B-C9D3A65692E8}</td><td>TOOLS</td><td>2</td><td/><td>cyggcc_s_1.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>cygwin1.dll</td><td>{110F857D-C21C-4409-B845-9A4F01B49686}</td><td>TOOLS</td><td>2</td><td/><td>cygwin1.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>cygz.dll</td><td>{EB3A0D9D-35C9-4A0F-9EA6-1E3BDBCBE4D9}</td><td>TOOLS</td><td>2</td><td/><td>cygz.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>fastboot.exe</td><td>{D9C9B632-07EC-48FB-B747-8206EC3FE5BE}</td><td>ADB_TOOLS</td><td>2</td><td/><td>fastboot.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>fastboot.exe1</td><td>{DC121E6E-B97E-4118-A193-330684FE4070}</td><td>TOOLS</td><td>2</td><td/><td>fastboot.exe1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>feedback.exe</td><td>{1B2EE6E7-D81F-4A27-81B8-04F3BC460EC3}</td><td>KINGO_ROOT</td><td>2</td><td/><td>feedback.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>fstool.exe</td><td>{43301258-A6A9-42EA-BEDE-6A2C9E2DFA0F}</td><td>TOOLS</td><td>2</td><td/><td>fstool.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libiconv_2.dll</td><td>{E13AD44A-9A9B-4287-B94E-69772C02BC06}</td><td>TOOLS</td><td>2</td><td/><td>libiconv_2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libintl_2.dll</td><td>{191F4032-4717-4B80-9A64-F041CF544828}</td><td>TOOLS</td><td>2</td><td/><td>libintl_2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libssdl.dll</td><td>{134C5BE9-010D-4EA2-8C53-71DB9A992AE5}</td><td>KINGO_ROOT</td><td>2</td><td/><td>libssdl.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msvcp100.dll</td><td>{9B20CD7F-3E4D-4B1A-88CA-D766DE9EADAB}</td><td>KINGO_ROOT</td><td>2</td><td/><td>msvcp100.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msvcr100.dll</td><td>{AC32356E-3F8B-49BD-B4E2-F88F87DC73F0}</td><td>KINGO_ROOT</td><td>2</td><td/><td>msvcr100.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>notepad__.exe</td><td>{88FF1078-179E-44C7-9D25-EA7810925FF9}</td><td>ADB_TOOLS</td><td>2</td><td/><td>notepad__.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qgif4.dll</td><td>{65A4D704-56C8-497E-B868-C2C3E7A60E58}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qgif4.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qjpeg4.dll</td><td>{BB7043A8-595C-435F-B4F5-763AB290419E}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qjpeg4.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qmlwebkitplugin.dll</td><td>{911F566A-33DA-458A-8880-307AB119BD4E}</td><td>QTWEBKIT</td><td>2</td><td/><td>qmlwebkitplugin.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qsqlite4.dll</td><td>{D1AA6969-FE95-4EE4-98B7-B9EE15F6822D}</td><td>SQLDRIVERS</td><td>2</td><td/><td>qsqlite4.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>setup.exe</td><td>{D08FC027-353D-441D-9B05-FC7D07F814EE}</td><td>SETUP</td><td>2</td><td/><td>setup.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>tar.exe</td><td>{5A85A8C1-856C-48EB-8912-F17E6215B24E}</td><td>TOOLS</td><td>2</td><td/><td>tar.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>unins000.exe</td><td>{5BB729D2-055A-4B52-BF9C-F5FB71EDF562}</td><td>KINGO_ROOT</td><td>2</td><td/><td>unins000.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>updater.dll</td><td>{2B2E4DEB-0C8A-4CA0-9745-247EDC8E0853}</td><td>KINGO_ROOT</td><td>2</td><td/><td>updater.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>updater.exe</td><td>{AA6D384A-4418-4AE6-B072-41D43CBEE54F}</td><td>KINGO_ROOT</td><td>2</td><td/><td>updater.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>uts.dll</td><td>{5986B6DA-6684-4B37-B893-6F0969E29610}</td><td>KINGO_ROOT</td><td>2</td><td/><td>uts.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>winusb.dll</td><td>{200AB255-8661-46D4-A0BF-960503C7637D}</td><td>TOOLS</td><td>2</td><td/><td>winusb.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>winusb.dll1</td><td>{7F1DDF70-7A3F-4BB6-B30E-6B49501C4F9F}</td><td>KINGO_ROOT</td><td>2</td><td/><td>winusb.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1072,7 +1126,12 @@
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
 		<row><td>ADB_TOOLS</td><td>ISX_DEFAULTCOMPONENT3</td></row>
+		<row><td>DATABASEDIR</td><td>ISX_DEFAULTCOMPONENT14</td></row>
+		<row><td>IMAGEFORMATS</td><td>ISX_DEFAULTCOMPONENT19</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT13</td></row>
+		<row><td>SETUP</td><td>ISX_DEFAULTCOMPONENT22</td></row>
+		<row><td>SQLDRIVERS</td><td>ISX_DEFAULTCOMPONENT23</td></row>
+		<row><td>TOOLS</td><td>ISX_DEFAULTCOMPONENT24</td></row>
 		<row><td>USERPROFILE</td><td>ISX_DEFAULTCOMPONENT</td></row>
 	</table>
 
@@ -1161,6 +1220,7 @@
 		<row><td>BIN</td><td>FILES</td><td>bin</td><td/><td>0</td><td/></row>
 		<row><td>BLOAT</td><td>FILES</td><td>bloat</td><td/><td>0</td><td/></row>
 		<row><td>BUSYBOX</td><td>FILES</td><td>busybox</td><td/><td>0</td><td/></row>
+		<row><td>COMPONENTS</td><td>KINGO_ROOT</td><td>COMPON~1|Components</td><td/><td>0</td><td/></row>
 		<row><td>CommonAppDataFolder</td><td>TARGETDIR</td><td>.:Common~1|CommonAppData</td><td/><td>0</td><td/></row>
 		<row><td>CommonFiles64Folder</td><td>TARGETDIR</td><td>.:Common64</td><td/><td>0</td><td/></row>
 		<row><td>CommonFilesFolder</td><td>TARGETDIR</td><td>.:Common</td><td/><td>0</td><td/></row>
@@ -1168,14 +1228,19 @@
 		<row><td>DesktopFolder</td><td>TARGETDIR</td><td>.:Desktop</td><td/><td>3</td><td/></row>
 		<row><td>ETC</td><td>FILES</td><td>etc</td><td/><td>0</td><td/></row>
 		<row><td>FILES</td><td>ANDROID_KOOLKIT</td><td>files</td><td/><td>0</td><td/></row>
+		<row><td>FILES1</td><td>KINGO_ROOT</td><td>files</td><td/><td>0</td><td/></row>
+		<row><td>FLASHCORE</td><td>KINGO_ROOT</td><td>FLASHC~1|FlashCore</td><td/><td>0</td><td/></row>
 		<row><td>FavoritesFolder</td><td>TARGETDIR</td><td>.:FAVORI~1|Favorites</td><td/><td>0</td><td/></row>
 		<row><td>FontsFolder</td><td>TARGETDIR</td><td>.:Fonts</td><td/><td>0</td><td/></row>
 		<row><td>GlobalAssemblyCache</td><td>TARGETDIR</td><td>.:Global~1|GlobalAssemblyCache</td><td/><td>0</td><td/></row>
+		<row><td>IMAGEFORMATS</td><td>KINGO_ROOT</td><td>IMAGEF~1|imageformats</td><td/><td>0</td><td/></row>
 		<row><td>INSTALLDIR</td><td>ANDROID_KOOLKIT</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>ISCommonFilesFolder</td><td>CommonFilesFolder</td><td>Instal~1|InstallShield</td><td/><td>0</td><td/></row>
 		<row><td>ISMyCompanyDir</td><td>ProgramFilesFolder</td><td>MYCOMP~1|My Company Name</td><td/><td>0</td><td/></row>
 		<row><td>ISMyProductDir</td><td>ISMyCompanyDir</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
 		<row><td>ISYourDataBaseDir</td><td>INSTALLDIR</td><td>Database</td><td/><td>0</td><td/></row>
+		<row><td>KINGO_ROOT</td><td>FILES</td><td>KINGO_~1|Kingo_ROOT</td><td/><td>0</td><td/></row>
+		<row><td>LANGUAGE</td><td>KINGO_ROOT</td><td>language</td><td/><td>0</td><td/></row>
 		<row><td>LocalAppDataFolder</td><td>TARGETDIR</td><td>.:LocalA~1|LocalAppData</td><td/><td>0</td><td/></row>
 		<row><td>MEDIA</td><td>FILES</td><td>media</td><td/><td>0</td><td/></row>
 		<row><td>MY_PRODUCT_NAME</td><td>UNITY_DEVELOPMENT</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
@@ -1187,8 +1252,11 @@
 		<row><td>ProgramFiles64Folder</td><td>TARGETDIR</td><td>.:Prog64~1|Program Files 64</td><td/><td>0</td><td/></row>
 		<row><td>ProgramFilesFolder</td><td>TARGETDIR</td><td>.:PROGRA~1|program files</td><td/><td>0</td><td/></row>
 		<row><td>ProgramMenuFolder</td><td>TARGETDIR</td><td>.:Programs</td><td/><td>3</td><td/></row>
+		<row><td>QTWEBKIT</td><td>KINGO_ROOT</td><td>QtWebKit</td><td/><td>0</td><td/></row>
 		<row><td>RecentFolder</td><td>TARGETDIR</td><td>.:Recent</td><td/><td>0</td><td/></row>
 		<row><td>SCRIPTS</td><td>FILES</td><td>scripts</td><td/><td>0</td><td/></row>
+		<row><td>SETUP</td><td>KINGO_ROOT</td><td>setup</td><td/><td>0</td><td/></row>
+		<row><td>SQLDRIVERS</td><td>KINGO_ROOT</td><td>SQLDRI~1|sqldrivers</td><td/><td>0</td><td/></row>
 		<row><td>SYSCTL</td><td>FILES</td><td>sysctl</td><td/><td>0</td><td/></row>
 		<row><td>SendToFolder</td><td>TARGETDIR</td><td>.:SendTo</td><td/><td>3</td><td/></row>
 		<row><td>StartMenuFolder</td><td>TARGETDIR</td><td>.:STARTM~1|Start Menu</td><td/><td>3</td><td/></row>
@@ -1197,6 +1265,7 @@
 		<row><td>System64Folder</td><td>TARGETDIR</td><td>.:System64</td><td/><td>0</td><td/></row>
 		<row><td>SystemFolder</td><td>TARGETDIR</td><td>.:System32</td><td/><td>0</td><td/></row>
 		<row><td>TARGETDIR</td><td/><td>SourceDir</td><td/><td>0</td><td/></row>
+		<row><td>TOOLS</td><td>KINGO_ROOT</td><td>tools</td><td/><td>0</td><td/></row>
 		<row><td>TWEAKS</td><td>FILES</td><td>tweaks</td><td/><td>0</td><td/></row>
 		<row><td>TempFolder</td><td>TARGETDIR</td><td>.:Temp</td><td/><td>0</td><td/></row>
 		<row><td>TemplateFolder</td><td>TARGETDIR</td><td>.:ShellNew</td><td/><td>0</td><td/></row>
@@ -1899,15 +1968,32 @@
 		<col key="yes" def="s38">Feature_</col>
 		<col key="yes" def="s72">Component_</col>
 		<row><td>AlwaysInstall</td><td>AdbWinApi.dll</td></row>
+		<row><td>AlwaysInstall</td><td>AdbWinApi.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>AdbWinUsbApi.dll</td></row>
+		<row><td>AlwaysInstall</td><td>AdbWinUsbApi.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>Android_KoolKit.exe</td></row>
+		<row><td>AlwaysInstall</td><td>Components.dll</td></row>
+		<row><td>AlwaysInstall</td><td>DPInst.exe</td></row>
+		<row><td>AlwaysInstall</td><td>DPInst64.exe</td></row>
+		<row><td>AlwaysInstall</td><td>FlashCore.dll</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT10</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT11</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT12</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT13</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT14</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT15</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT16</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT17</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT18</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT19</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT2</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT20</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT21</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT22</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT23</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT24</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT3</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT4</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT5</td></row>
@@ -1915,10 +2001,47 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT7</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT8</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT9</td></row>
+		<row><td>AlwaysInstall</td><td>Kingo_Root.exe</td></row>
+		<row><td>AlwaysInstall</td><td>QtCore4.dll</td></row>
+		<row><td>AlwaysInstall</td><td>QtDeclarative4.dll</td></row>
+		<row><td>AlwaysInstall</td><td>QtGui4.dll</td></row>
+		<row><td>AlwaysInstall</td><td>QtNetwork4.dll</td></row>
+		<row><td>AlwaysInstall</td><td>QtScript4.dll</td></row>
+		<row><td>AlwaysInstall</td><td>QtSql4.dll</td></row>
+		<row><td>AlwaysInstall</td><td>QtWebKit4.dll</td></row>
+		<row><td>AlwaysInstall</td><td>QtXml4.dll</td></row>
+		<row><td>AlwaysInstall</td><td>QtXmlPatterns4.dll</td></row>
 		<row><td>AlwaysInstall</td><td>SciLexer.dll</td></row>
+		<row><td>AlwaysInstall</td><td>_z.dll</td></row>
+		<row><td>AlwaysInstall</td><td>_z.exe</td></row>
+		<row><td>AlwaysInstall</td><td>aapt.exe</td></row>
 		<row><td>AlwaysInstall</td><td>adb.exe</td></row>
+		<row><td>AlwaysInstall</td><td>adb.exe1</td></row>
+		<row><td>AlwaysInstall</td><td>cyggcc_s_1.dll</td></row>
+		<row><td>AlwaysInstall</td><td>cygwin1.dll</td></row>
+		<row><td>AlwaysInstall</td><td>cygz.dll</td></row>
 		<row><td>AlwaysInstall</td><td>fastboot.exe</td></row>
+		<row><td>AlwaysInstall</td><td>fastboot.exe1</td></row>
+		<row><td>AlwaysInstall</td><td>feedback.exe</td></row>
+		<row><td>AlwaysInstall</td><td>fstool.exe</td></row>
+		<row><td>AlwaysInstall</td><td>libiconv_2.dll</td></row>
+		<row><td>AlwaysInstall</td><td>libintl_2.dll</td></row>
+		<row><td>AlwaysInstall</td><td>libssdl.dll</td></row>
+		<row><td>AlwaysInstall</td><td>msvcp100.dll</td></row>
+		<row><td>AlwaysInstall</td><td>msvcr100.dll</td></row>
 		<row><td>AlwaysInstall</td><td>notepad__.exe</td></row>
+		<row><td>AlwaysInstall</td><td>qgif4.dll</td></row>
+		<row><td>AlwaysInstall</td><td>qjpeg4.dll</td></row>
+		<row><td>AlwaysInstall</td><td>qmlwebkitplugin.dll</td></row>
+		<row><td>AlwaysInstall</td><td>qsqlite4.dll</td></row>
+		<row><td>AlwaysInstall</td><td>setup.exe</td></row>
+		<row><td>AlwaysInstall</td><td>tar.exe</td></row>
+		<row><td>AlwaysInstall</td><td>unins000.exe</td></row>
+		<row><td>AlwaysInstall</td><td>updater.dll</td></row>
+		<row><td>AlwaysInstall</td><td>updater.exe</td></row>
+		<row><td>AlwaysInstall</td><td>uts.dll</td></row>
+		<row><td>AlwaysInstall</td><td>winusb.dll</td></row>
+		<row><td>AlwaysInstall</td><td>winusb.dll1</td></row>
 	</table>
 
 	<table name="File">
@@ -1938,9 +2061,15 @@
 		<row><td>_2misctweaks</td><td>ISX_DEFAULTCOMPONENT9</td><td>02MISC~1|02misctweaks</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\scripts\02misctweaks</td><td>1</td><td/></row>
 		<row><td>_3memory_clean</td><td>ISX_DEFAULTCOMPONENT9</td><td>03MEMO~1|03memory_clean</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\scripts\03memory_clean</td><td>1</td><td/></row>
 		<row><td>_9supersudaemon</td><td>ISX_DEFAULTCOMPONENT9</td><td>99SUPE~1|99SuperSUDaemon</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\scripts\99SuperSUDaemon</td><td>1</td><td/></row>
+		<row><td>_z.dll</td><td>_z.dll</td><td>7z.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\7z.dll</td><td>1</td><td/></row>
+		<row><td>_z.exe</td><td>_z.exe</td><td>7z.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\7z.exe</td><td>1</td><td/></row>
+		<row><td>aapt.exe</td><td>aapt.exe</td><td>aapt.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\aapt.exe</td><td>1</td><td/></row>
 		<row><td>adb.exe</td><td>adb.exe</td><td>adb.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\adb_tools\adb.exe</td><td>1</td><td/></row>
+		<row><td>adb.exe1</td><td>adb.exe1</td><td>adb.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\adb.exe</td><td>1</td><td/></row>
 		<row><td>adbwinapi.dll</td><td>AdbWinApi.dll</td><td>ADBWIN~1.DLL|AdbWinApi.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\adb_tools\AdbWinApi.dll</td><td>1</td><td/></row>
+		<row><td>adbwinapi.dll1</td><td>AdbWinApi.dll1</td><td>ADBWIN~1.DLL|AdbWinApi.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\AdbWinApi.dll</td><td>1</td><td/></row>
 		<row><td>adbwinusbapi.dll</td><td>AdbWinUsbApi.dll</td><td>ADBWIN~1.DLL|AdbWinUsbApi.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\adb_tools\AdbWinUsbApi.dll</td><td>1</td><td/></row>
+		<row><td>adbwinusbapi.dll1</td><td>AdbWinUsbApi.dll1</td><td>ADBWIN~1.DLL|AdbWinUsbApi.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\AdbWinUsbApi.dll</td><td>1</td><td/></row>
 		<row><td>android_koolkit.exe</td><td>Android_KoolKit.exe</td><td>ANDROI~1.EXE|Android_KoolKit.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\Android_KoolKit.exe</td><td>1</td><td/></row>
 		<row><td>android_koolkit.exe.config</td><td>ISX_DEFAULTCOMPONENT1</td><td>ANDROI~1.CON|Android_KoolKit.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\Android_KoolKit.exe.config</td><td>1</td><td/></row>
 		<row><td>android_koolkit.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>ANDROI~1.XML|Android_KoolKit.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\Android_KoolKit.xml</td><td>1</td><td/></row>
@@ -1948,19 +2077,72 @@
 		<row><td>bootanimation.zip</td><td>ISX_DEFAULTCOMPONENT8</td><td>BOOTAN~1.ZIP|bootanimation.zip</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\media\bootanimation.zip</td><td>1</td><td/></row>
 		<row><td>build_prop.txt</td><td>ISX_DEFAULTCOMPONENT11</td><td>BUILD_~1.TXT|build_prop.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\tweaks\build_prop.txt</td><td>1</td><td/></row>
 		<row><td>busybox</td><td>ISX_DEFAULTCOMPONENT6</td><td>busybox</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\busybox\busybox</td><td>1</td><td/></row>
+		<row><td>busybox1</td><td>ISX_DEFAULTCOMPONENT17</td><td>busybox</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\files\busybox</td><td>1</td><td/></row>
+		<row><td>checksum</td><td>ISX_DEFAULTCOMPONENT17</td><td>checksum</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\files\checksum</td><td>1</td><td/></row>
+		<row><td>clash_app_en.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>CLASH_~1.INI|clash_app_en.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\files\clash_app_en.ini</td><td>1</td><td/></row>
+		<row><td>components.dll</td><td>Components.dll</td><td>COMPON~1.DLL|Components.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\Components\Components.dll</td><td>1</td><td/></row>
 		<row><td>customer.xml</td><td>ISX_DEFAULTCOMPONENT11</td><td>customer.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\tweaks\customer.xml</td><td>1</td><td/></row>
+		<row><td>cyggcc_s_1.dll</td><td>cyggcc_s_1.dll</td><td>CYGGCC~1.DLL|cyggcc_s-1.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\cyggcc_s-1.dll</td><td>1</td><td/></row>
+		<row><td>cygwin1.dll</td><td>cygwin1.dll</td><td>cygwin1.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\cygwin1.dll</td><td>1</td><td/></row>
+		<row><td>cygz.dll</td><td>cygz.dll</td><td>cygz.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\cygz.dll</td><td>1</td><td/></row>
+		<row><td>dpinst.exe</td><td>DPInst.exe</td><td>DPInst.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\DPInst.exe</td><td>1</td><td/></row>
+		<row><td>dpinst64.exe</td><td>DPInst64.exe</td><td>DPInst64.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\DPInst64.exe</td><td>1</td><td/></row>
+		<row><td>drivers.js.bin</td><td>ISX_DEFAULTCOMPONENT17</td><td>DRIVER~1.BIN|drivers.js.bin</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\files\drivers.js.bin</td><td>1</td><td/></row>
+		<row><td>extent_lang_en.qm</td><td>ISX_DEFAULTCOMPONENT17</td><td>EXTENT~1.QM|extent_lang_en.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\files\extent_lang_en.qm</td><td>1</td><td/></row>
 		<row><td>fastboot.exe</td><td>fastboot.exe</td><td>fastboot.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\adb_tools\fastboot.exe</td><td>1</td><td/></row>
+		<row><td>fastboot.exe1</td><td>fastboot.exe1</td><td>fastboot.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\fastboot.exe</td><td>1</td><td/></row>
+		<row><td>feedback.exe</td><td>feedback.exe</td><td>feedback.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\feedback.exe</td><td>1</td><td/></row>
+		<row><td>flashcore.dll</td><td>FlashCore.dll</td><td>FLASHC~1.DLL|FlashCore.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\FlashCore\FlashCore.dll</td><td>1</td><td/></row>
+		<row><td>flashcore.dll.vmp</td><td>ISX_DEFAULTCOMPONENT18</td><td>FLASHC~1.VMP|FlashCore.dll.vmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\FlashCore\FlashCore.dll.vmp</td><td>1</td><td/></row>
+		<row><td>fstool.exe</td><td>fstool.exe</td><td>fstool.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\fstool.exe</td><td>1</td><td/></row>
 		<row><td>fstrim</td><td>ISX_DEFAULTCOMPONENT12</td><td>fstrim</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\xbin\fstrim</td><td>1</td><td/></row>
 		<row><td>init.qcom.post_boot.sh</td><td>ISX_DEFAULTCOMPONENT7</td><td>INITQC~1.SH|init.qcom.post_boot.sh</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\etc\init.qcom.post_boot.sh</td><td>1</td><td/></row>
+		<row><td>kingo_root.exe</td><td>Kingo_Root.exe</td><td>KINGO_~1.EXE|Kingo_Root.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\Kingo_Root.exe</td><td>1</td><td/></row>
+		<row><td>libiconv_2.dll</td><td>libiconv_2.dll</td><td>LIBICO~1.DLL|libiconv-2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\libiconv-2.dll</td><td>1</td><td/></row>
+		<row><td>libintl_2.dll</td><td>libintl_2.dll</td><td>LIBINT~1.DLL|libintl-2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\libintl-2.dll</td><td>1</td><td/></row>
+		<row><td>libssdl.dll</td><td>libssdl.dll</td><td>libssdl.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\libssdl.dll</td><td>1</td><td/></row>
+		<row><td>license.txt</td><td>ISX_DEFAULTCOMPONENT15</td><td>license.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\license.txt</td><td>1</td><td/></row>
+		<row><td>msvcp100.dll</td><td>msvcp100.dll</td><td>msvcp100.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\msvcp100.dll</td><td>1</td><td/></row>
+		<row><td>msvcr100.dll</td><td>msvcr100.dll</td><td>msvcr100.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\msvcr100.dll</td><td>1</td><td/></row>
 		<row><td>nobloat.txt</td><td>ISX_DEFAULTCOMPONENT5</td><td>nobloat.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\bloat\nobloat.txt</td><td>1</td><td/></row>
 		<row><td>notepad__.exe</td><td>notepad__.exe</td><td>NOTEPA~1.EXE|notepad++.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\adb_tools\notepad++.exe</td><td>1</td><td/></row>
+		<row><td>qgif4.dll</td><td>qgif4.dll</td><td>qgif4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\imageformats\qgif4.dll</td><td>1</td><td/></row>
+		<row><td>qjpeg4.dll</td><td>qjpeg4.dll</td><td>qjpeg4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\imageformats\qjpeg4.dll</td><td>1</td><td/></row>
+		<row><td>qmldir</td><td>ISX_DEFAULTCOMPONENT16</td><td>qmldir</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\Components\qmldir</td><td>1</td><td/></row>
+		<row><td>qmldir1</td><td>ISX_DEFAULTCOMPONENT18</td><td>qmldir</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\FlashCore\qmldir</td><td>1</td><td/></row>
+		<row><td>qmldir2</td><td>ISX_DEFAULTCOMPONENT21</td><td>qmldir</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\QtWebKit\qmldir</td><td>1</td><td/></row>
+		<row><td>qmlwebkitplugin.dll</td><td>qmlwebkitplugin.dll</td><td>QMLWEB~1.DLL|qmlwebkitplugin.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\QtWebKit\qmlwebkitplugin.dll</td><td>1</td><td/></row>
+		<row><td>qsqlite4.dll</td><td>qsqlite4.dll</td><td>qsqlite4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\sqldrivers\qsqlite4.dll</td><td>1</td><td/></row>
+		<row><td>qtcore4.dll</td><td>QtCore4.dll</td><td>QtCore4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\QtCore4.dll</td><td>1</td><td/></row>
+		<row><td>qtdeclarative4.dll</td><td>QtDeclarative4.dll</td><td>QTDECL~1.DLL|QtDeclarative4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\QtDeclarative4.dll</td><td>1</td><td/></row>
+		<row><td>qtgui4.dll</td><td>QtGui4.dll</td><td>QtGui4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\QtGui4.dll</td><td>1</td><td/></row>
+		<row><td>qtnetwork4.dll</td><td>QtNetwork4.dll</td><td>QTNETW~1.DLL|QtNetwork4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\QtNetwork4.dll</td><td>1</td><td/></row>
+		<row><td>qtscript4.dll</td><td>QtScript4.dll</td><td>QTSCRI~1.DLL|QtScript4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\QtScript4.dll</td><td>1</td><td/></row>
+		<row><td>qtsql4.dll</td><td>QtSql4.dll</td><td>QtSql4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\QtSql4.dll</td><td>1</td><td/></row>
+		<row><td>qtwebkit4.dll</td><td>QtWebKit4.dll</td><td>QTWEBK~1.DLL|QtWebKit4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\QtWebKit4.dll</td><td>1</td><td/></row>
+		<row><td>qtxml4.dll</td><td>QtXml4.dll</td><td>QtXml4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\QtXml4.dll</td><td>1</td><td/></row>
+		<row><td>qtxmlpatterns4.dll</td><td>QtXmlPatterns4.dll</td><td>QTXMLP~1.DLL|QtXmlPatterns4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\QtXmlPatterns4.dll</td><td>1</td><td/></row>
+		<row><td>resources</td><td>ISX_DEFAULTCOMPONENT15</td><td>RESOUR~1|Resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\Resources</td><td>1</td><td/></row>
+		<row><td>root_en.qm</td><td>ISX_DEFAULTCOMPONENT20</td><td>root_en.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\language\root_en.qm</td><td>1</td><td/></row>
+		<row><td>root_res_en.rcc</td><td>ISX_DEFAULTCOMPONENT20</td><td>ROOT_R~1.RCC|root_res_en.rcc</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\language\root_res_en.rcc</td><td>1</td><td/></row>
 		<row><td>scilexer.dll</td><td>SciLexer.dll</td><td>SciLexer.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\adb_tools\SciLexer.dll</td><td>1</td><td/></row>
 		<row><td>secsettings.apk</td><td>ISX_DEFAULTCOMPONENT5</td><td>SECSET~1.APK|SecSettings.apk</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\bloat\SecSettings.apk</td><td>1</td><td/></row>
 		<row><td>set_build.sh</td><td>ISX_DEFAULTCOMPONENT2</td><td>SET_BU~1.SH|set_build.sh</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\set_build.sh</td><td>1</td><td/></row>
+		<row><td>setup.exe</td><td>setup.exe</td><td>setup.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\setup\setup.exe</td><td>1</td><td/></row>
 		<row><td>sqlite3</td><td>ISX_DEFAULTCOMPONENT12</td><td>sqlite3</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\xbin\sqlite3</td><td>1</td><td/></row>
+		<row><td>su_root_v2.zip</td><td>ISX_DEFAULTCOMPONENT17</td><td>SU_ROO~1.ZIP|su_root_v2.zip</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\files\su_root_v2.zip</td><td>1</td><td/></row>
 		<row><td>sysctl.conf</td><td>ISX_DEFAULTCOMPONENT10</td><td>SYSCTL~1.CON|sysctl.conf</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\sysctl\sysctl.conf</td><td>1</td><td/></row>
 		<row><td>sysinit</td><td>ISX_DEFAULTCOMPONENT4</td><td>sysinit</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\bin\sysinit</td><td>1</td><td/></row>
+		<row><td>tar.exe</td><td>tar.exe</td><td>tar.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\tar.exe</td><td>1</td><td/></row>
 		<row><td>tune2fs</td><td>ISX_DEFAULTCOMPONENT12</td><td>tune2fs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\xbin\tune2fs</td><td>1</td><td/></row>
+		<row><td>unins000.dat</td><td>ISX_DEFAULTCOMPONENT15</td><td>unins000.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\unins000.dat</td><td>1</td><td/></row>
+		<row><td>unins000.exe</td><td>unins000.exe</td><td>unins000.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\unins000.exe</td><td>1</td><td/></row>
+		<row><td>updater.dll</td><td>updater.dll</td><td>updater.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\updater.dll</td><td>1</td><td/></row>
+		<row><td>updater.exe</td><td>updater.exe</td><td>updater.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\updater.exe</td><td>1</td><td/></row>
+		<row><td>uts.dll</td><td>uts.dll</td><td>uts.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\uts.dll</td><td>1</td><td/></row>
+		<row><td>winusb.dll</td><td>winusb.dll</td><td>winusb.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\winusb.dll</td><td>1</td><td/></row>
+		<row><td>winusb.dll1</td><td>winusb.dll1</td><td>winusb.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\winusb.dll</td><td>1</td><td/></row>
+		<row><td>zs</td><td>ISX_DEFAULTCOMPONENT17</td><td>zs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\files\zs</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2105,15 +2287,32 @@
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
 		<row><td>AdbWinApi.dll</td><td/><td/><td>_882944E6_4CC6_4ADA_849A_86BB7239224A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AdbWinApi.dll1</td><td/><td/><td>_C8B202F1_22E5_48FF_91A4_7CDEB1F13E21_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>AdbWinUsbApi.dll</td><td/><td/><td>_D8B6CB7E_EFB3_4FF5_AA8A_6B3EC0509DF4_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AdbWinUsbApi.dll1</td><td/><td/><td>_B671C767_AEB0_4E85_9B97_AEBA0E6F3ACA_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>Android_KoolKit.exe</td><td/><td/><td>_3576D822_B7CF_4E08_A7C4_518A42870D59_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Components.dll</td><td/><td/><td>_7FEF7215_56F6_4398_BC7C_E14BF190B57E_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DPInst.exe</td><td/><td/><td>_8F2B1A7D_A5EB_402E_B0DA_811DFE2DB3DF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DPInst64.exe</td><td/><td/><td>_91E9C6CC_64B4_4D07_B947_2B4D4266F84C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>FlashCore.dll</td><td/><td/><td>_6F483402_6415_4949_9C48_8C8DFCB3E7E2_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_5BE0FA48_0278_4435_A029_48FA8158D0BC_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_711A6F13_FCA0_4018_BF03_4B9C59922B6C_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT10</td><td/><td/><td>_D4BB02AF_3965_4A39_916F_AE50168BE278_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT11</td><td/><td/><td>_21057A8C_76D6_4BCC_A9F6_ECB039F9D5F1_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT12</td><td/><td/><td>_5CC0FB82_7815_4B50_8F7F_E6D4777CA924_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT13</td><td/><td/><td>_5A155F43_853D_4B37_91F5_E335EF6B365D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT14</td><td/><td/><td>_501C2EE1_D211_4C97_9A9F_55231F973085_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT15</td><td/><td/><td>_EF27313C_6379_425C_90DC_C115639546CA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT16</td><td/><td/><td>_35DFA0F7_CAEA_464E_B231_21E7825B01D3_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT17</td><td/><td/><td>_FB474B6E_5701_4787_BC7B_18C78A1344CA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT18</td><td/><td/><td>_21DF2E36_538B_48D3_A189_261D3D963EB5_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT19</td><td/><td/><td>_5F612FAE_5923_4ECF_BED4_8224A197203A_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_A0ACA419_D371_461F_A3FB_DA7011104277_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT20</td><td/><td/><td>_074882F4_2814_4FDA_86A2_EC1E6BCF0048_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT21</td><td/><td/><td>_A82A5E41_BF98_4FC8_BAC6_0A99B9D352BE_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT22</td><td/><td/><td>_4199C0E7_E1E9_4DAC_BEF7_54A46F1E1270_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT23</td><td/><td/><td>_A1AAC99A_BC3D_42AD_A265_57FB6420A093_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT24</td><td/><td/><td>_85CFB389_06A5_4127_8F80_D24EDCD87E85_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_A0C33489_E42C_4F5C_9B43_481ADB3B7CEA_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_8301FA6B_AED3_460D_801B_5DB5A07611EB_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT5</td><td/><td/><td>_2FEA9DD9_282E_4197_80CA_DF226549FC2B_FILTER</td><td/><td/><td/><td/></row>
@@ -2121,10 +2320,47 @@
 		<row><td>ISX_DEFAULTCOMPONENT7</td><td/><td/><td>_E41A13DB_7ECC_4F9B_A151_BDD356325F45_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT8</td><td/><td/><td>_6E3B6784_D512_4DCC_A49F_844AD280B558_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT9</td><td/><td/><td>_1ACFA61E_31BA_431D_8555_4F68F3C61404_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Kingo_Root.exe</td><td/><td/><td>_03F208EB_5061_49A4_B715_95DFF8254296_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>QtCore4.dll</td><td/><td/><td>_0C8CE412_0906_4EA1_B556_9B0B428DB7D6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>QtDeclarative4.dll</td><td/><td/><td>_87ED91B9_FA02_43BC_B0C6_CD6E1BDF067F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>QtGui4.dll</td><td/><td/><td>_A72096D2_41CC_477C_8FF8_73B8622263B1_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>QtNetwork4.dll</td><td/><td/><td>_C7BC2FF4_C20B_4FAC_AA09_730C7E434F19_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>QtScript4.dll</td><td/><td/><td>_F810109C_4E26_4207_BD0B_2FFDAEB635E4_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>QtSql4.dll</td><td/><td/><td>_6230F15E_DC48_4E9F_9A75_5571632DE4A5_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>QtWebKit4.dll</td><td/><td/><td>_BE697BA6_2A7F_4820_AB68_4F66583FBE93_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>QtXml4.dll</td><td/><td/><td>_5BE50679_A932_44C4_ABD1_3021A866A5A7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>QtXmlPatterns4.dll</td><td/><td/><td>_3AAD63EA_3E2A_48F3_AC22_A2AD6E7DD797_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>SciLexer.dll</td><td/><td/><td>_C96E5417_7CC1_4F1E_BE54_9B4F0D51EC5C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>_z.dll</td><td/><td/><td>_F71E978F_5399_4E7A_BD21_674D18CEFB48_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>_z.exe</td><td/><td/><td>_FF521C44_2390_44D2_BEE3_483FF3D8F9D2_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>aapt.exe</td><td/><td/><td>_E0D0D4A2_3E32_4E24_8FE7_64629F91F1D8_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>adb.exe</td><td/><td/><td>_C97069AC_E9D2_4D18_83D3_29D4C4AC75FE_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>adb.exe1</td><td/><td/><td>_0BAFF8DE_6C3B_4C2E_97DD_7DCE60FF6A90_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>cyggcc_s_1.dll</td><td/><td/><td>_90ED2159_D724_43E2_B839_9337155C7E92_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>cygwin1.dll</td><td/><td/><td>_541F279D_F6E7_4E3E_AD0F_E6EFB38BD934_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>cygz.dll</td><td/><td/><td>_DB93557E_2866_4461_8970_A7D2EBA13B21_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>fastboot.exe</td><td/><td/><td>_8304F11D_6D2D_4D25_9FF4_0E516918BE22_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>fastboot.exe1</td><td/><td/><td>_B277359E_5854_49CE_A970_4B874F81D6E8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>feedback.exe</td><td/><td/><td>_ADB455DF_0C27_4320_A3C6_47A319FCF2FA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>fstool.exe</td><td/><td/><td>_34D0465D_30C8_45B9_833B_8041EDC64397_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libiconv_2.dll</td><td/><td/><td>_B2CB143A_24BF_4D38_BD8E_FBE57E09A446_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libintl_2.dll</td><td/><td/><td>_DA103154_989E_4B64_A56C_6110D28B9E60_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libssdl.dll</td><td/><td/><td>_57175A65_C4FE_4523_989D_18B59BB63A1C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>msvcp100.dll</td><td/><td/><td>_167FEE0D_C565_4D70_BE5E_6B6B88C2DA49_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>msvcr100.dll</td><td/><td/><td>_84D514C7_7B4E_4A6B_899F_4C6F2EAFE900_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>notepad__.exe</td><td/><td/><td>_E0854BE7_0ADC_4EBD_A00B_256F3A5A5812_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qgif4.dll</td><td/><td/><td>_FCA46977_4663_4960_9B78_3F0F1368FB06_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qjpeg4.dll</td><td/><td/><td>_C8B24516_1C8A_4737_96CB_108A7AE01A62_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qmlwebkitplugin.dll</td><td/><td/><td>_9B555E95_B37D_4D01_8E44_05460E0E16EF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qsqlite4.dll</td><td/><td/><td>_E4FAD0BF_31E1_463F_A30B_AEC75CB9C2B1_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>setup.exe</td><td/><td/><td>_AF6229A6_C222_40FF_84F8_71685248C317_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>tar.exe</td><td/><td/><td>_A7B037C5_A8E0_4112_AB4B_9143B984DC1D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>unins000.exe</td><td/><td/><td>_8F32FEC9_8505_4378_B490_7EB1E42A9DCC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>updater.dll</td><td/><td/><td>_1C99E47A_2186_42D0_9156_E8D681F6BE57_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>updater.exe</td><td/><td/><td>_EDE07497_2ADD_45F9_A3F7_349CC425B8FA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>uts.dll</td><td/><td/><td>_2C95A83E_3781_49BB_AB6A_425CFBF94FB6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>winusb.dll</td><td/><td/><td>_A6335C73_02DD_46D9_B123_06954A0C91DF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>winusb.dll1</td><td/><td/><td>_C7F5D0EC_E50A_43FC_B11F_DACC9B90E523_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2741,7 +2977,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Unity Development</td><td>0</td><td/><td>237169363</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Unity Development</td><td>0</td><td/><td>371331668</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION45FULL</td><td>1033</td><td>Microsoft .NET Framework 4.5 Full package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>-173888686</td></row>
@@ -3555,9 +3791,26 @@
 		<row><td>IDS_SETUPEXE_EXPIRE_MSG</td><td>1033</td><td>This setup works until %s. The setup will now exit.</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>IDS_SETUPEXE_LAUNCH_COND_E</td><td>1033</td><td>This setup was built with an evaluation version of InstallShield and can only be launched from setup.exe.</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>LAUNCH~1.EXE|Launch adb.exe</td><td>0</td><td/><td>-173884494</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME10</td><td>1033</td><td>LAUNCH~1.EXE|Launch Kingo_Root.exe</td><td>0</td><td/><td>371378548</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME11</td><td>1033</td><td>LAUNCH~1.EXE|Launch setup.exe</td><td>0</td><td/><td>371380596</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME12</td><td>1033</td><td>LAUNCH~1.EXE|Launch 7z.exe</td><td>0</td><td/><td>371380596</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME13</td><td>1033</td><td>LAUNCH~1.EXE|Launch aapt.exe</td><td>0</td><td/><td>371380596</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME14</td><td>1033</td><td>LAUNCH~1.EXE|Launch adb.exe</td><td>0</td><td/><td>371380596</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME15</td><td>1033</td><td>LAUNCH~1.EXE|Launch DPInst.exe</td><td>0</td><td/><td>371380596</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME16</td><td>1033</td><td>LAUNCH~1.EXE|Launch DPInst64.exe</td><td>0</td><td/><td>371380596</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME17</td><td>1033</td><td>LAUNCH~1.EXE|Launch fastboot.exe</td><td>0</td><td/><td>371380596</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME18</td><td>1033</td><td>LAUNCH~1.EXE|Launch fstool.exe</td><td>0</td><td/><td>371380596</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME19</td><td>1033</td><td>LAUNCH~1.EXE|Launch tar.exe</td><td>0</td><td/><td>371382644</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>1033</td><td>LAUNCH~1.EXE|Launch fastboot.exe</td><td>0</td><td/><td>-173884494</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME20</td><td>1033</td><td>LAUNCH~1.EXE|Launch unins000.exe</td><td>0</td><td/><td>371382644</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME21</td><td>1033</td><td>LAUNCH~1.EXE|Launch updater.exe</td><td>0</td><td/><td>371382644</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME3</td><td>1033</td><td>LAUNCH~1.EXE|Launch notepad++.exe</td><td>0</td><td/><td>-173884494</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME4</td><td>1033</td><td>Android Koolkit</td><td>0</td><td/><td>-173904302</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME5</td><td>1033</td><td>LAUNCH~1.EXE|Launch feedback.exe</td><td>0</td><td/><td>371374420</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME6</td><td>1033</td><td>LAUNCH~1.EXE|Launch Kingo_Root.exe</td><td>0</td><td/><td>371374420</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME7</td><td>1033</td><td>LAUNCH~1.EXE|Launch unins000.exe</td><td>0</td><td/><td>371376468</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME8</td><td>1033</td><td>LAUNCH~1.EXE|Launch updater.exe</td><td>0</td><td/><td>371376468</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME9</td><td>1033</td><td>LAUNCH~1.EXE|Launch feedback.exe</td><td>0</td><td/><td>371376500</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>1033</td><td>From the list of servers below, select the database server you would like to target.</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1033</td><td>From the list of catalog names below, select the database catalog you would like to target.</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1033</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>-173901070</td></row>
@@ -3847,8 +4100,8 @@
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td/><td>0</td><td/><td>-173899022</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>http://stacra.byethost7.com/</td><td>0</td><td/><td>237136755</td></row>
-		<row><td>ID_STRING3</td><td>1033</td><td>Unity Development</td><td>0</td><td/><td>237169363</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>http://www.UnityDevelopment.com</td><td>0</td><td/><td>371331668</td></row>
+		<row><td>ID_STRING3</td><td>1033</td><td>Unity Development</td><td>0</td><td/><td>371331668</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>LAUNCH~1.EXE|Launch Android_KoolKit.exe</td><td>0</td><td/><td>-173872174</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>-173901070</td></row>
 	</table>
@@ -3960,6 +4213,23 @@
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;VSSolutionFolder&gt;\Android_KoolKit\resources\Ampeross-Ampola-Android.ico</td><td>0</td></row>
 		<row><td>Android_KoolKit.ex_374EA135A0FB45BEAE7BA600C4FBFCD1.exe</td><td/><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\Android_KoolKit.exe</td><td>0</td></row>
 		<row><td>Android_KoolKit.ex_95317FDE4F974363AC8F78823E3D2FCC.exe</td><td/><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\Android_KoolKit.exe</td><td>0</td></row>
+		<row><td>DPInst.exe_124B548722D74C7A9411D4DE3B75C641.exe</td><td/><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\DPInst.exe</td><td>0</td></row>
+		<row><td>DPInst64.exe_3688F56AC5E245A39C65A880B2CE404A.exe</td><td/><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\DPInst64.exe</td><td>0</td></row>
+		<row><td>Kingo_Root.exe_594E8822ADB844FE818BEE52E38F010B.exe</td><td/><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\Kingo_Root.exe</td><td>0</td></row>
+		<row><td>Kingo_Root.exe_A54C02757D6E4E38B86FEE97E52E5607.exe</td><td/><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\Kingo_Root.exe</td><td>0</td></row>
+		<row><td>_z.exe_3D6F1DA1817C44B2B6ACC600465316E9.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>aapt.exe_F0F4AE06757845E3A10FC86CD13A1EB5.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>adb.exe_DA623F423357490892B687E84277B676.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>fastboot.exe_D7D7DFC7ECAA482AAE6AE3A1B72D7B69.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>feedback.exe_4B2251502FF24BBE9BF212C8086C6EC7.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>feedback.exe_6D65C4318B2E48C8A8802E871933427E.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>fstool.exe_058D4E71747F4F66B216D407691111C7.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>setup.exe_49A518AB349D4500ADEF43858353E02B.exe</td><td/><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\setup\setup.exe</td><td>0</td></row>
+		<row><td>tar.exe_C60E11E35AC446F6A91DF97244E1CB2A.exe</td><td/><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\tools\tar.exe</td><td>0</td></row>
+		<row><td>unins000.exe_C4D11E91EBDE48188D439D79E11B73E7.exe</td><td/><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\unins000.exe</td><td>0</td></row>
+		<row><td>unins000.exe_E0FE9927ABC445E388FF21AB0D57B98B.exe</td><td/><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\unins000.exe</td><td>0</td></row>
+		<row><td>updater.exe_71682044335B437495B140E22BC1A0F8.exe</td><td/><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\updater.exe</td><td>0</td></row>
+		<row><td>updater.exe_F2D25FAE400D477AA78E0D0D7CC25A4F.exe</td><td/><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\updater.exe</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4470,7 +4740,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGRAMFILETOLAUNCHATEND</td><td>[USERPROFILE]Android Koolkit\Android_KoolKit.exe</td><td/></row>
 		<row><td>ProductCode</td><td>{6B3696E9-4694-4183-AC2A-B1649763D8F0}</td><td/></row>
 		<row><td>ProductName</td><td>Android Koolkit</td><td/></row>
-		<row><td>ProductVersion</td><td>2.0.0</td><td/></row>
+		<row><td>ProductVersion</td><td>2.0.1</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -4548,8 +4818,21 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
 		<row><td>Android_KoolKit.exe</td><td>Android_KoolKit.exe</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
+		<row><td>DPInst.exe</td><td>DPInst.exe</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
+		<row><td>DPInst64.exe</td><td>DPInst64.exe</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
 		<row><td>FileKey1</td><td>adb.exe</td><td/><td>unityd_1_unity_development</td><td>2</td></row>
 		<row><td>FileKey2</td><td>adb.exe</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
+		<row><td>Kingo_Root.exe</td><td>Kingo_Root.exe</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
+		<row><td>_z.exe</td><td>_z.exe</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
+		<row><td>aapt.exe</td><td>aapt.exe</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
+		<row><td>adb.exe</td><td>adb.exe1</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
+		<row><td>fastboot.exe</td><td>fastboot.exe1</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
+		<row><td>feedback.exe</td><td>feedback.exe</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
+		<row><td>fstool.exe</td><td>fstool.exe</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
+		<row><td>setup.exe</td><td>setup.exe</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
+		<row><td>tar.exe</td><td>tar.exe</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
+		<row><td>unins000.exe</td><td>unins000.exe</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
+		<row><td>updater.exe</td><td>updater.exe</td><td/><td>androi_1_android_koolkit</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4637,6 +4920,19 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="I4">ISAttributes</col>
 		<row><td>Android_KoolKit.exe</td><td>androi_1_android_koolkit</td><td>##IDS_SHORTCUT_DISPLAY_NAME4##</td><td>Android_KoolKit.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>Android_KoolKit.ex_95317FDE4F974363AC8F78823E3D2FCC.exe</td><td>1</td><td>1</td><td>ANDROID_KOOLKIT</td><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>Android_KoolKit.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME4##</td><td>Android_KoolKit.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>Android_KoolKit.ex_374EA135A0FB45BEAE7BA600C4FBFCD1.exe</td><td>1</td><td>1</td><td>ANDROID_KOOLKIT</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>DPInst.exe</td><td>androi_1_android_koolkit</td><td>##IDS_SHORTCUT_DISPLAY_NAME15##</td><td>DPInst.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>DPInst.exe_124B548722D74C7A9411D4DE3B75C641.exe</td><td>1</td><td>1</td><td>TOOLS</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>DPInst64.exe</td><td>androi_1_android_koolkit</td><td>##IDS_SHORTCUT_DISPLAY_NAME16##</td><td>DPInst64.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>DPInst64.exe_3688F56AC5E245A39C65A880B2CE404A.exe</td><td>1</td><td>1</td><td>TOOLS</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>Kingo_Root.exe</td><td>androi_1_android_koolkit</td><td>##IDS_SHORTCUT_DISPLAY_NAME10##</td><td>Kingo_Root.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>Kingo_Root.exe_594E8822ADB844FE818BEE52E38F010B.exe</td><td>1</td><td>1</td><td>KINGO_ROOT</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>_z.exe</td><td>androi_1_android_koolkit</td><td>##IDS_SHORTCUT_DISPLAY_NAME12##</td><td>_z.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>_z.exe_3D6F1DA1817C44B2B6ACC600465316E9.exe</td><td>0</td><td>1</td><td>TOOLS</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>aapt.exe</td><td>androi_1_android_koolkit</td><td>##IDS_SHORTCUT_DISPLAY_NAME13##</td><td>aapt.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>aapt.exe_F0F4AE06757845E3A10FC86CD13A1EB5.exe</td><td>0</td><td>1</td><td>TOOLS</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>adb.exe</td><td>androi_1_android_koolkit</td><td>##IDS_SHORTCUT_DISPLAY_NAME14##</td><td>adb.exe1</td><td>AlwaysInstall</td><td/><td/><td/><td>adb.exe_DA623F423357490892B687E84277B676.exe</td><td>0</td><td>1</td><td>TOOLS</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>fastboot.exe</td><td>androi_1_android_koolkit</td><td>##IDS_SHORTCUT_DISPLAY_NAME17##</td><td>fastboot.exe1</td><td>AlwaysInstall</td><td/><td/><td/><td>fastboot.exe_D7D7DFC7ECAA482AAE6AE3A1B72D7B69.exe</td><td>0</td><td>1</td><td>TOOLS</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>feedback.exe</td><td>androi_1_android_koolkit</td><td>##IDS_SHORTCUT_DISPLAY_NAME9##</td><td>feedback.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>feedback.exe_4B2251502FF24BBE9BF212C8086C6EC7.exe</td><td>0</td><td>1</td><td>KINGO_ROOT</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>fstool.exe</td><td>androi_1_android_koolkit</td><td>##IDS_SHORTCUT_DISPLAY_NAME18##</td><td>fstool.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>fstool.exe_058D4E71747F4F66B216D407691111C7.exe</td><td>0</td><td>1</td><td>TOOLS</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>setup.exe</td><td>androi_1_android_koolkit</td><td>##IDS_SHORTCUT_DISPLAY_NAME11##</td><td>setup.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>setup.exe_49A518AB349D4500ADEF43858353E02B.exe</td><td>1</td><td>1</td><td>SETUP</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>tar.exe</td><td>androi_1_android_koolkit</td><td>##IDS_SHORTCUT_DISPLAY_NAME19##</td><td>tar.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>tar.exe_C60E11E35AC446F6A91DF97244E1CB2A.exe</td><td>1</td><td>1</td><td>TOOLS</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>unins000.exe</td><td>androi_1_android_koolkit</td><td>##IDS_SHORTCUT_DISPLAY_NAME20##</td><td>unins000.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>unins000.exe_E0FE9927ABC445E388FF21AB0D57B98B.exe</td><td>1</td><td>1</td><td>KINGO_ROOT</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>updater.exe</td><td>androi_1_android_koolkit</td><td>##IDS_SHORTCUT_DISPLAY_NAME21##</td><td>updater.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>updater.exe_F2D25FAE400D477AA78E0D0D7CC25A4F.exe</td><td>1</td><td>1</td><td>KINGO_ROOT</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
