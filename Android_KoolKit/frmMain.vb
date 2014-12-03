@@ -22,7 +22,7 @@ Public Class frmMain
 				else if lblModel.Text = "SM-T217T" then
 					Dim sr As New StreamReader("files\bloat\TMO\nobloat.txt")
 				end if
-                    ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
+'                    ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
                     While sr.Peek() <> -1
                         Dim srLine As String = sr.ReadLine()
                         If srLine.Substring(0, 1) = "/" Then
@@ -39,12 +39,12 @@ Public Class frmMain
 					else if lblModel.Text = "SM-T217T" then
 						msgbox("Tmobile devices not yet supported")
 					end if	
-						ProcStart(adb, shell & " mount -o remount,ro -t auto /system")					
+'						ProcStart(adb, shell & " mount -o remount,ro -t auto /system")					
                 Case "btnInitD"
                     If noinit <> "" Then
                         MsgBox("Your system already has init.d support enabled, you don't need to run this again")
                     Else
-                        ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
+'                        ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
                         ProcStart(adb, "push" & " files\bin\sysinit /sdcard/sysinit")
                         ProcStart(adb, shell & " cp -f /sdcard/sysinit /system/bin/sysinit")
                         ProcStart(adb, shell & " mkdir /system/etc/init.d")
@@ -54,9 +54,9 @@ Public Class frmMain
                         ProcStart(adb, shell & " chmod -R 0755 /system/etc/init.d")
                         ProcStart(adb, shell & " chmod 0755 /system/bin/sysinit")
                     End If
-					ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
+'					ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
                 Case "btnBootani" 'Not available for all models
-                    ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
+'                    ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
                     ProcStart(adb, shell & " cp -f /system/bin/bootanimation /system/bin/bootanimation.bak")
                     ProcStart(adb, "push" & " files\bin\bootanimation /sdcard/bootanimation")
                     ProcStart(adb, "push" & " files\media\bootanimation.zip /sdcard/bootanimation.zip")
@@ -65,13 +65,13 @@ Public Class frmMain
                     ProcStart(adb, shell & " cp -f /system/media/audio/ui/PowerOn.ogg /system/media/audio/ui/PowerOn.ogg.bak")
                     ProcStart(adb, shell & " chmod 0644 /system/media/bootanimation.zip")
                     ProcStart(adb, shell & " chmod 0755 /system/bin/bootanimation")
-                    ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
+'                    ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
                 Case "btnTweaks"
                     If notweaks <> "" Then
                         If MessageBox.Show("Performance enhancements have already been applied, do you want to update them now?", "Close", _
                                            MessageBoxButtons.YesNo, MessageBoxIcon.Question) _
                                        = Windows.Forms.DialogResult.Yes Then
-                            ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
+'                            ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
                             'REMOVE EXISTING TWEAKS START
                             ProcStart(adb, shell & " rm -f /system/etc/sysctl.conf")
                             ProcStart(adb, shell & " rm -Rf /system/etc/init.d")
@@ -160,7 +160,6 @@ Public Class frmMain
             ProcStart(adb, shell & " rm -f /sdcard/set_build.sh")
             ProcStart(adb, shell & " rm -f /sdcard/SecSettings.apk")
             ProcStart(adb, shell & " rm -r /sdcard/tmp")
-
             ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
         Else
             e.Cancel = True
@@ -222,7 +221,7 @@ Public Class frmMain
     End Function
 
     Public Function tweaks()
-        ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
+'        ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
         ProcStart(adb, "push" & " files\xbin /sdcard/xbin")
         ProcStart(adb, "push" & " files\scripts /sdcard/init.d")
         ProcStart(adb, "push" & " files\sysctl\sysctl.conf /sdcard/sysctl.conf")
@@ -251,12 +250,12 @@ Public Class frmMain
         ProcStart(adb, shell & " chmod 0755 /system/etc/set_build.sh")
         ProcStart(adb, shell & " ./system/etc/set_build.sh")
         ProcStart(adb, shell & " chmod 0644 /system/build.prop")
-        ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
+'        ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
         Return Nothing
     End Function
 
     Public Function installApk(ByVal iType As String, ByVal iFile As String, ByVal cFile As String)
-        ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
+'        ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
         If iType = "System" Then
             ProcStart(adb, "push" & " " & Chr(34) & iFile & Chr(34) & " /sdcard/" & cFile)
             ProcStart(adb, shell & " cp -f /sdcard/" & cFile & " /system/app/" & cFile)
@@ -270,7 +269,7 @@ Public Class frmMain
             ProcStart(adb, shell & " chown 0.0 /system/xbin/" & cFile)
             ProcStart(adb, shell & " /system/xbin/" & cFile & " --install -s /system/xbin")
         End If
-        ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
+'        ProcStart(adb, shell & " mount -o remount,ro -t auto /system")
         Return Nothing
     End Function
 
