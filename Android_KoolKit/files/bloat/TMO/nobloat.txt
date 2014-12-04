@@ -11,7 +11,10 @@
 #Default System apks removed by script
 #Add your additional apks in this section
 #
-
+/system/app/wssyncmldm.apk
+/system/app/wssyncmldm.odex
+/system/app/wssyncmlnps.apk
+/system/app/wssyncmlnps.odex
 #
 #==============================================#
 #Samsung Knox notification removal             #

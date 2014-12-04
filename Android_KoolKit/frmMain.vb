@@ -9,6 +9,7 @@ Imports Microsoft.VisualBasic
 Public Class frmMain
     Dim notweaks As String = Nothing
     Dim noinit As String = Nothing
+    Dim sr_type As String = Nothing
     Dim adb As String = "files\adb_tools\adb.exe"
     Dim shell As String = "shell" & " su -c"
     Private Sub btn_Click(sender As Object, e As EventArgs) Handles btnBloat.Click, btnInitD.Click, btnBootani.Click, btnTweaks.Click, btnReboot.Click, btnExit.Click
@@ -18,10 +19,11 @@ Public Class frmMain
             Select Case btn.Name
                 Case "btnBloat"
 				if lblModel.Text = "SM-T217A" then 
-                    Dim sr As New StreamReader("files\bloat\ATT\nobloat.txt")
+                        sr_type = "files\bloat\ATT\nobloat.txt"
 				else if lblModel.Text = "SM-T217T" then
-					Dim sr As New StreamReader("files\bloat\TMO\nobloat.txt")
-				end if
+                        sr_type = "files\bloat\TMO\nobloat.txt"
+                    End If
+                    Dim sr As New StreamReader(sr_type)
 '                    ProcStart(adb, shell & " mount -o remount,rw -t auto /system")
                     While sr.Peek() <> -1
                         Dim srLine As String = sr.ReadLine()
@@ -84,7 +86,6 @@ Public Class frmMain
                         End If
                     Else
                         tweaks()
-
                     End If
 
                 Case "btnReboot"
@@ -93,7 +94,11 @@ Public Class frmMain
                     Application.Exit()
             End Select
         Catch ex As Exception
-            MsgBox("An error occured please close the application and try again.")
+            If lblModel.Text = Nothing Then
+                MsgBox("No device detected, Please re-connect your device and try again.")
+            Else
+                MsgBox("An unknown error has occured, Please close the application and restart now.")
+            End If
         End Try
     End Sub
 

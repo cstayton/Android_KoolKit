@@ -368,9 +368,11 @@
 		<row><td>ISX_DEFAULTCOMPONENT22</td><td>{306AA11D-5834-472D-87E3-F882D9C0E285}</td><td>SETUP</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT23</td><td>{607728EA-6262-49F3-85AA-540548F8F362}</td><td>SQLDRIVERS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT24</td><td>{C9DCA3F5-D3DC-435C-87E3-18A61BB7ED02}</td><td>TOOLS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT25</td><td>{1F8B087B-1D56-4F26-AA97-07F5985B520A}</td><td>ATT</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT26</td><td>{9D09D8D1-4B6F-4675-8535-37D7C8E74906}</td><td>TMO</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{BFBF8832-EF09-4F0B-AB15-EAF57778C4F6}</td><td>ADB_TOOLS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{D9F11DE2-47A9-45A2-88F4-7319384AFFE2}</td><td>BIN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT5</td><td>{E897927E-91A6-43BB-B2FE-F159503C0AD4}</td><td>BLOAT</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT5</td><td>{9691D2EC-7047-4AF5-94BF-A9115689542D}</td><td>BLOAT</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT6</td><td>{961F8E73-5A65-49CC-8ACD-3639829BD3ED}</td><td>BUSYBOX</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT7</td><td>{C697ADF1-966D-4090-9AC3-90D129457E41}</td><td>ETC</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT8</td><td>{A2AD7C8F-4DE5-428F-9A2F-20E7E776D98B}</td><td>MEDIA</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
@@ -1126,6 +1128,7 @@
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
 		<row><td>ADB_TOOLS</td><td>ISX_DEFAULTCOMPONENT3</td></row>
+		<row><td>BLOAT</td><td>ISX_DEFAULTCOMPONENT5</td></row>
 		<row><td>DATABASEDIR</td><td>ISX_DEFAULTCOMPONENT14</td></row>
 		<row><td>IMAGEFORMATS</td><td>ISX_DEFAULTCOMPONENT19</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT13</td></row>
@@ -1215,6 +1218,7 @@
 		<row><td>ADB_TOOLS</td><td>FILES</td><td>ADB_TO~1|adb_tools</td><td/><td>0</td><td/></row>
 		<row><td>ALLUSERSPROFILE</td><td>TARGETDIR</td><td>.:ALLUSE~1|All Users</td><td/><td>0</td><td/></row>
 		<row><td>ANDROID_KOOLKIT</td><td>USERPROFILE</td><td>ANDROI~1|Android Koolkit</td><td/><td>0</td><td/></row>
+		<row><td>ATT</td><td>BLOAT</td><td>ATT</td><td/><td>0</td><td/></row>
 		<row><td>AdminToolsFolder</td><td>TARGETDIR</td><td>.:Admint~1|AdminTools</td><td/><td>0</td><td/></row>
 		<row><td>AppDataFolder</td><td>TARGETDIR</td><td>.:APPLIC~1|Application Data</td><td/><td>0</td><td/></row>
 		<row><td>BIN</td><td>FILES</td><td>bin</td><td/><td>0</td><td/></row>
@@ -1265,6 +1269,7 @@
 		<row><td>System64Folder</td><td>TARGETDIR</td><td>.:System64</td><td/><td>0</td><td/></row>
 		<row><td>SystemFolder</td><td>TARGETDIR</td><td>.:System32</td><td/><td>0</td><td/></row>
 		<row><td>TARGETDIR</td><td/><td>SourceDir</td><td/><td>0</td><td/></row>
+		<row><td>TMO</td><td>BLOAT</td><td>TMO</td><td/><td>0</td><td/></row>
 		<row><td>TOOLS</td><td>KINGO_ROOT</td><td>tools</td><td/><td>0</td><td/></row>
 		<row><td>TWEAKS</td><td>FILES</td><td>tweaks</td><td/><td>0</td><td/></row>
 		<row><td>TempFolder</td><td>TARGETDIR</td><td>.:Temp</td><td/><td>0</td><td/></row>
@@ -1994,6 +1999,8 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT22</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT23</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT24</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT25</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT26</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT3</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT4</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT5</td></row>
@@ -2104,7 +2111,8 @@
 		<row><td>license.txt</td><td>ISX_DEFAULTCOMPONENT15</td><td>license.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\license.txt</td><td>1</td><td/></row>
 		<row><td>msvcp100.dll</td><td>msvcp100.dll</td><td>msvcp100.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\msvcp100.dll</td><td>1</td><td/></row>
 		<row><td>msvcr100.dll</td><td>msvcr100.dll</td><td>msvcr100.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\msvcr100.dll</td><td>1</td><td/></row>
-		<row><td>nobloat.txt</td><td>ISX_DEFAULTCOMPONENT5</td><td>nobloat.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\bloat\nobloat.txt</td><td>1</td><td/></row>
+		<row><td>nobloat.txt</td><td>ISX_DEFAULTCOMPONENT25</td><td>nobloat.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\bloat\ATT\nobloat.txt</td><td>1</td><td/></row>
+		<row><td>nobloat.txt1</td><td>ISX_DEFAULTCOMPONENT26</td><td>nobloat.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\bloat\TMO\nobloat.txt</td><td>1</td><td/></row>
 		<row><td>notepad__.exe</td><td>notepad__.exe</td><td>NOTEPA~1.EXE|notepad++.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\adb_tools\notepad++.exe</td><td>1</td><td/></row>
 		<row><td>qgif4.dll</td><td>qgif4.dll</td><td>qgif4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\imageformats\qgif4.dll</td><td>1</td><td/></row>
 		<row><td>qjpeg4.dll</td><td>qjpeg4.dll</td><td>qjpeg4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\imageformats\qjpeg4.dll</td><td>1</td><td/></row>
@@ -2126,7 +2134,7 @@
 		<row><td>root_en.qm</td><td>ISX_DEFAULTCOMPONENT20</td><td>root_en.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\language\root_en.qm</td><td>1</td><td/></row>
 		<row><td>root_res_en.rcc</td><td>ISX_DEFAULTCOMPONENT20</td><td>ROOT_R~1.RCC|root_res_en.rcc</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\language\root_res_en.rcc</td><td>1</td><td/></row>
 		<row><td>scilexer.dll</td><td>SciLexer.dll</td><td>SciLexer.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\adb_tools\SciLexer.dll</td><td>1</td><td/></row>
-		<row><td>secsettings.apk</td><td>ISX_DEFAULTCOMPONENT5</td><td>SECSET~1.APK|SecSettings.apk</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\bloat\SecSettings.apk</td><td>1</td><td/></row>
+		<row><td>secsettings.apk</td><td>ISX_DEFAULTCOMPONENT25</td><td>SECSET~1.APK|SecSettings.apk</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\bloat\ATT\SecSettings.apk</td><td>1</td><td/></row>
 		<row><td>set_build.sh</td><td>ISX_DEFAULTCOMPONENT2</td><td>SET_BU~1.SH|set_build.sh</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\set_build.sh</td><td>1</td><td/></row>
 		<row><td>setup.exe</td><td>setup.exe</td><td>setup.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\Kingo_ROOT\setup\setup.exe</td><td>1</td><td/></row>
 		<row><td>sqlite3</td><td>ISX_DEFAULTCOMPONENT12</td><td>sqlite3</td><td>0</td><td/><td/><td/><td>1</td><td>C:\github\Android_KoolKit\Android_KoolKit\bin\Release\files\xbin\sqlite3</td><td>1</td><td/></row>
@@ -2160,6 +2168,7 @@
 		<col def="S255">Data</col>
 		<row><td>PROJECT_ASSISTANT_DEFAULT_FEATURE</td><td>AlwaysInstall</td></row>
 		<row><td>PROJECT_ASSISTANT_FEATURES</td><td>NonSelectable</td></row>
+		<row><td>RegistryPageEnabled</td><td>No</td></row>
 	</table>
 
 	<table name="ISBillBoard">
@@ -2313,9 +2322,11 @@
 		<row><td>ISX_DEFAULTCOMPONENT22</td><td/><td/><td>_4199C0E7_E1E9_4DAC_BEF7_54A46F1E1270_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT23</td><td/><td/><td>_A1AAC99A_BC3D_42AD_A265_57FB6420A093_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT24</td><td/><td/><td>_85CFB389_06A5_4127_8F80_D24EDCD87E85_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT25</td><td/><td/><td>_2C405F0D_9F08_4C55_89A3_ED3DF1132393_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT26</td><td/><td/><td>_E67A2732_F723_4871_83F9_A15C1E511F29_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_A0C33489_E42C_4F5C_9B43_481ADB3B7CEA_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_8301FA6B_AED3_460D_801B_5DB5A07611EB_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT5</td><td/><td/><td>_2FEA9DD9_282E_4197_80CA_DF226549FC2B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT5</td><td/><td/><td>_7421AB41_E6E4_467E_BE87_59D75C5C4020_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT6</td><td/><td/><td>_E0E86F3B_FB3E_4D9A_8834_75976F7E01F2_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT7</td><td/><td/><td>_E41A13DB_7ECC_4F9B_A151_BDD356325F45_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT8</td><td/><td/><td>_6E3B6784_D512_4DCC_A49F_844AD280B558_FILTER</td><td/><td/><td/><td/></row>
@@ -2977,7 +2988,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Unity Development</td><td>0</td><td/><td>371331668</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Unity Development</td><td>0</td><td/><td>505595507</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION45FULL</td><td>1033</td><td>Microsoft .NET Framework 4.5 Full package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>-173888686</td></row>
@@ -4100,8 +4111,8 @@
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>-173901070</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td/><td>0</td><td/><td>-173899022</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>http://www.UnityDevelopment.com</td><td>0</td><td/><td>371331668</td></row>
-		<row><td>ID_STRING3</td><td>1033</td><td>Unity Development</td><td>0</td><td/><td>371331668</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>http://www.UnityDevelopment.com</td><td>0</td><td/><td>505595507</td></row>
+		<row><td>ID_STRING3</td><td>1033</td><td>Unity Development</td><td>0</td><td/><td>505595507</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>LAUNCH~1.EXE|Launch Android_KoolKit.exe</td><td>0</td><td/><td>-173872174</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>-173901070</td></row>
 	</table>

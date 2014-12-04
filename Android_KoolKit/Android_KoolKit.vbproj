@@ -147,7 +147,7 @@
     <None Include="files\bin\sysinit">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="files\bloat\SecSettings.apk">
+    <None Include="files\bloat\ATT\SecSettings.apk">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="files\busybox\busybox">
@@ -324,7 +324,10 @@
     <Content Include="files\adb_tools\SciLexer.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="files\bloat\nobloat.txt">
+    <Content Include="files\bloat\ATT\nobloat.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\bloat\TMO\nobloat.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="files\Kingo_ROOT\Components\Components.dll">

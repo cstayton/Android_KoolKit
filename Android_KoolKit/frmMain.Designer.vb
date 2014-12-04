@@ -49,8 +49,8 @@ Partial Class frmMain
         Me.InstallUserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.toolsMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InstallBusyboxToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.lblPowerOn = New System.Windows.Forms.Label()
         Me.RootYourDeviceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.lblPowerOn = New System.Windows.Forms.Label()
         Me.mnuDefault.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -229,9 +229,8 @@ Partial Class frmMain
         Me.lblModel.ForeColor = System.Drawing.Color.Maroon
         Me.lblModel.Location = New System.Drawing.Point(330, 78)
         Me.lblModel.Name = "lblModel"
-        Me.lblModel.Size = New System.Drawing.Size(63, 24)
+        Me.lblModel.Size = New System.Drawing.Size(0, 24)
         Me.lblModel.TabIndex = 13
-        Me.lblModel.Text = "Model"
         '
         'mnuDefault
         '
@@ -310,6 +309,12 @@ Partial Class frmMain
         Me.InstallBusyboxToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
         Me.InstallBusyboxToolStripMenuItem.Text = "Install Busybox"
         '
+        'RootYourDeviceToolStripMenuItem
+        '
+        Me.RootYourDeviceToolStripMenuItem.Name = "RootYourDeviceToolStripMenuItem"
+        Me.RootYourDeviceToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.RootYourDeviceToolStripMenuItem.Text = "Root Your Device"
+        '
         'lblPowerOn
         '
         Me.lblPowerOn.AutoSize = True
@@ -319,12 +324,6 @@ Partial Class frmMain
         Me.lblPowerOn.Size = New System.Drawing.Size(130, 13)
         Me.lblPowerOn.TabIndex = 15
         Me.lblPowerOn.Text = "(Disables PowerOn Audio)"
-        '
-        'RootYourDeviceToolStripMenuItem
-        '
-        Me.RootYourDeviceToolStripMenuItem.Name = "RootYourDeviceToolStripMenuItem"
-        Me.RootYourDeviceToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
-        Me.RootYourDeviceToolStripMenuItem.Text = "Root Your Device"
         '
         'frmMain
         '
